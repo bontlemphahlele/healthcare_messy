@@ -1,0 +1,1001 @@
+patient_id,age,gender,condition,medication,visit_date,blood_pressure,cholesterol,systolic,diastolic,age_group,bp_level,cholesterol_level,on_medication,high_risk,visit_year,visit_month,visit_month_num
+P00001,25,Other,Heart Disease,ATORVASTATIN,2020-01-15,140/90,200,140,90,Young ,High,Borderline High,True,False,2020,January,1
+P00002,40,Male,Diabetes,METFORMIN,2018-04-05,120/80,200,120,80,Adult,High,Borderline High,True,False,2018,April,4
+P00003,35,Other,Asthma,ALBUTEROL,2019-12-01,110/70,160,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00004,40,Male,Diabetes,METFORMIN,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00005,40,Female,Asthma,ALBUTEROL,2020-02-20,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00006,40,Male,Hypertension,LISINOPRIL,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00007,40,Male,Hypertension,LISINOPRIL,2020-02-20,120/80,180,120,80,Adult,High,Normal,True,False,2020,February,2
+P00008,60,Other,Unknown,NONE,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00009,60,Other,Heart Disease,ATORVASTATIN,2020-01-15,140/90,180,140,90,Adult,High,Normal,True,False,2020,January,1
+P00010,40,Female,Unknown,NONE,2020-02-20,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00011,25,Male,Asthma,ALBUTEROL,2018-04-05,120/80,200,120,80,Young ,High,Borderline High,True,False,2018,April,4
+P00012,40,Male,Unknown,NONE,2020-02-20,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00013,40,Male,Diabetes,METFORMIN,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00014,25,Female,Asthma,ALBUTEROL,2019-03-25,130/85,180,130,85,Young ,High,Normal,True,False,2019,March,3
+P00015,70,Female,Hypertension,LISINOPRIL,2019-12-01,130/85,220,130,85,Senior,High,Borderline High,True,False,2019,December,12
+P00016,35,Female,Heart Disease,ATORVASTATIN,2019-03-25,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,March,3
+P00017,60,Female,Asthma,ALBUTEROL,2020-02-20,120/80,200,120,80,Adult,High,Borderline High,True,False,2020,February,2
+P00018,70,Female,Asthma,ALBUTEROL,2019-03-25,130/85,160,130,85,Senior,High,Normal,True,False,2019,March,3
+P00019,25,Other,Diabetes,METFORMIN,2020-01-15,120/80,180,120,80,Young ,High,Normal,True,False,2020,January,1
+P00020,70,Male,Heart Disease,ATORVASTATIN,2019-03-25,110/70,160,110,70,Senior,Normal,Normal,True,False,2019,March,3
+P00021,35,Male,Hypertension,LISINOPRIL,2018-04-05,120/80,180,120,80,Young ,High,Normal,True,False,2018,April,4
+P00022,25,Male,Asthma,ALBUTEROL,2020-01-15,140/90,200,140,90,Young ,High,Borderline High,True,False,2020,January,1
+P00023,70,Male,Asthma,ALBUTEROL,2019-12-01,130/85,220,130,85,Senior,High,Borderline High,True,False,2019,December,12
+P00024,60,Male,Diabetes,METFORMIN,2018-04-05,120/80,160,120,80,Adult,High,Normal,True,False,2018,April,4
+P00025,60,Male,Unknown,NONE,2020-02-20,130/85,220,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00026,40,Male,Hypertension,LISINOPRIL,2020-02-20,120/80,200,120,80,Adult,High,Borderline High,True,False,2020,February,2
+P00027,70,Male,Heart Disease,ATORVASTATIN,2020-02-20,130/85,160,130,85,Senior,High,Normal,True,False,2020,February,2
+P00028,40,Other,Asthma,ALBUTEROL,2018-04-05,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2018,April,4
+P00029,70,Male,Asthma,ALBUTEROL,2018-04-05,110/70,220,110,70,Senior,Normal,Borderline High,True,False,2018,April,4
+P00030,25,Other,Hypertension,LISINOPRIL,2018-04-05,130/85,160,130,85,Young ,High,Normal,True,False,2018,April,4
+P00031,25,Female,Unknown,NONE,2020-01-15,140/90,200,140,90,Young ,High,Borderline High,True,False,2020,January,1
+P00032,70,Male,Asthma,ALBUTEROL,2020-01-15,140/90,220,140,90,Senior,High,Borderline High,True,False,2020,January,1
+P00033,35,Female,Hypertension,LISINOPRIL,2020-02-20,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00034,60,Female,Diabetes,METFORMIN,2019-03-25,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00035,25,Female,Unknown,NONE,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00036,60,Other,Heart Disease,ATORVASTATIN,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00037,25,Female,Asthma,ALBUTEROL,2020-01-15,110/70,200,110,70,Young ,Normal,Borderline High,True,False,2020,January,1
+P00038,40,Female,Hypertension,LISINOPRIL,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00039,40,Female,Diabetes,METFORMIN,2020-01-15,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2020,January,1
+P00040,25,Male,Heart Disease,ATORVASTATIN,2018-04-05,120/80,180,120,80,Young ,High,Normal,True,False,2018,April,4
+P00041,60,Male,Hypertension,LISINOPRIL,2019-12-01,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00042,40,Other,Hypertension,LISINOPRIL,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00043,25,Other,Heart Disease,ATORVASTATIN,2020-01-15,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,January,1
+P00044,35,Male,Diabetes,METFORMIN,2018-04-05,130/85,200,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00045,40,Other,Diabetes,METFORMIN,2019-12-01,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00046,25,Male,Unknown,NONE,2020-02-20,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2020,February,2
+P00047,40,Female,Asthma,ALBUTEROL,2020-02-20,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2020,February,2
+P00048,35,Female,Heart Disease,ATORVASTATIN,2018-04-05,140/90,220,140,90,Young ,High,Borderline High,True,False,2018,April,4
+P00049,70,Other,Heart Disease,ATORVASTATIN,2020-01-15,110/70,220,110,70,Senior,Normal,Borderline High,True,False,2020,January,1
+P00050,40,Male,Heart Disease,ATORVASTATIN,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00051,40,Male,Diabetes,METFORMIN,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00052,35,Other,Asthma,ALBUTEROL,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00053,40,Male,Unknown,NONE,2019-12-01,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00054,35,Female,Hypertension,LISINOPRIL,2020-01-15,140/90,160,140,90,Young ,High,Normal,True,False,2020,January,1
+P00055,25,Other,Hypertension,LISINOPRIL,2019-03-25,130/85,220,130,85,Young ,High,Borderline High,True,False,2019,March,3
+P00056,35,Other,Heart Disease,ATORVASTATIN,2018-04-05,120/80,220,120,80,Young ,High,Borderline High,True,False,2018,April,4
+P00057,35,Male,Asthma,ALBUTEROL,2018-04-05,130/85,200,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00058,40,Other,Diabetes,METFORMIN,2019-03-25,140/90,160,140,90,Adult,High,Normal,True,False,2019,March,3
+P00059,35,Male,Asthma,ALBUTEROL,2020-02-20,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00060,35,Male,Asthma,ALBUTEROL,2019-12-01,110/70,160,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00061,70,Male,Diabetes,METFORMIN,2018-04-05,110/70,200,110,70,Senior,Normal,Borderline High,True,False,2018,April,4
+P00062,25,Male,Heart Disease,ATORVASTATIN,2019-03-25,140/90,180,140,90,Young ,High,Normal,True,False,2019,March,3
+P00063,40,Male,Asthma,ALBUTEROL,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00064,70,Other,Hypertension,LISINOPRIL,2020-02-20,110/70,180,110,70,Senior,Normal,Normal,True,False,2020,February,2
+P00065,60,Female,Diabetes,METFORMIN,2020-02-20,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,February,2
+P00066,25,Female,Unknown,NONE,2020-01-15,140/90,180,140,90,Young ,High,Normal,True,False,2020,January,1
+P00067,25,Other,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00068,60,Other,Diabetes,METFORMIN,2020-01-15,130/85,220,130,85,Adult,High,Borderline High,True,False,2020,January,1
+P00069,35,Female,Unknown,NONE,2019-03-25,120/80,180,120,80,Young ,High,Normal,True,False,2019,March,3
+P00070,70,Female,Unknown,NONE,2019-12-01,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,December,12
+P00071,40,Female,Asthma,ALBUTEROL,2019-12-01,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00072,40,Female,Asthma,ALBUTEROL,2020-02-20,120/80,160,120,80,Adult,High,Normal,True,False,2020,February,2
+P00073,40,Female,Asthma,ALBUTEROL,2019-12-01,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00074,60,Male,Diabetes,METFORMIN,2019-12-01,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00075,25,Other,Diabetes,METFORMIN,2019-12-01,130/85,180,130,85,Young ,High,Normal,True,False,2019,December,12
+P00076,25,Male,Heart Disease,ATORVASTATIN,2019-03-25,140/90,220,140,90,Young ,High,Borderline High,True,False,2019,March,3
+P00077,40,Female,Asthma,ALBUTEROL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00078,25,Female,Unknown,NONE,2019-12-01,140/90,220,140,90,Young ,High,Borderline High,True,False,2019,December,12
+P00079,25,Female,Hypertension,LISINOPRIL,2019-12-01,130/85,180,130,85,Young ,High,Normal,True,False,2019,December,12
+P00080,40,Male,Heart Disease,ATORVASTATIN,2020-01-15,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00081,70,Male,Diabetes,METFORMIN,2019-03-25,130/85,180,130,85,Senior,High,Normal,True,False,2019,March,3
+P00082,70,Female,Heart Disease,ATORVASTATIN,2020-02-20,130/85,200,130,85,Senior,High,Borderline High,True,False,2020,February,2
+P00083,40,Male,Heart Disease,ATORVASTATIN,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00084,60,Male,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00085,25,Female,Heart Disease,ATORVASTATIN,2019-03-25,130/85,180,130,85,Young ,High,Normal,True,False,2019,March,3
+P00086,25,Male,Hypertension,LISINOPRIL,2019-03-25,130/85,160,130,85,Young ,High,Normal,True,False,2019,March,3
+P00087,60,Other,Asthma,ALBUTEROL,2018-04-05,130/85,220,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00088,70,Other,Unknown,NONE,2018-04-05,120/80,220,120,80,Senior,High,Borderline High,True,False,2018,April,4
+P00089,35,Other,Heart Disease,ATORVASTATIN,2018-04-05,130/85,220,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00090,35,Other,Heart Disease,ATORVASTATIN,2020-02-20,120/80,200,120,80,Young ,High,Borderline High,True,False,2020,February,2
+P00091,35,Female,Heart Disease,ATORVASTATIN,2019-12-01,130/85,220,130,85,Young ,High,Borderline High,True,False,2019,December,12
+P00092,70,Female,Asthma,ALBUTEROL,2019-03-25,130/85,220,130,85,Senior,High,Borderline High,True,False,2019,March,3
+P00093,70,Female,Diabetes,METFORMIN,2019-12-01,120/80,180,120,80,Senior,High,Normal,True,False,2019,December,12
+P00094,60,Other,Diabetes,METFORMIN,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00095,25,Other,Hypertension,LISINOPRIL,2018-04-05,130/85,220,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00096,60,Male,Diabetes,METFORMIN,2020-02-20,130/85,160,130,85,Adult,High,Normal,True,False,2020,February,2
+P00097,60,Male,Heart Disease,ATORVASTATIN,2020-01-15,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00098,70,Other,Heart Disease,ATORVASTATIN,2020-02-20,120/80,200,120,80,Senior,High,Borderline High,True,False,2020,February,2
+P00099,35,Other,Heart Disease,ATORVASTATIN,2019-12-01,130/85,200,130,85,Young ,High,Borderline High,True,False,2019,December,12
+P00100,40,Other,Hypertension,LISINOPRIL,2020-02-20,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00101,25,Other,Heart Disease,ATORVASTATIN,2018-04-05,130/85,220,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00102,70,Male,Diabetes,METFORMIN,2020-01-15,130/85,180,130,85,Senior,High,Normal,True,False,2020,January,1
+P00103,35,Other,Asthma,ALBUTEROL,2018-04-05,130/85,160,130,85,Young ,High,Normal,True,False,2018,April,4
+P00104,40,Male,Asthma,ALBUTEROL,2020-01-15,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00105,40,Other,Unknown,NONE,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00106,70,Other,Diabetes,METFORMIN,2020-01-15,110/70,180,110,70,Senior,Normal,Normal,True,False,2020,January,1
+P00107,40,Other,Heart Disease,ATORVASTATIN,2020-01-15,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2020,January,1
+P00108,25,Male,Asthma,ALBUTEROL,2020-01-15,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00109,40,Male,Diabetes,METFORMIN,2020-02-20,140/90,180,140,90,Adult,High,Normal,True,False,2020,February,2
+P00110,70,Female,Asthma,ALBUTEROL,2020-02-20,140/90,180,140,90,Senior,High,Normal,True,False,2020,February,2
+P00111,70,Other,Heart Disease,ATORVASTATIN,2019-12-01,130/85,180,130,85,Senior,High,Normal,True,False,2019,December,12
+P00112,35,Female,Asthma,ALBUTEROL,2020-01-15,120/80,220,120,80,Young ,High,Borderline High,True,False,2020,January,1
+P00113,40,Female,Unknown,NONE,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00114,25,Male,Unknown,NONE,2019-12-01,110/70,200,110,70,Young ,Normal,Borderline High,True,False,2019,December,12
+P00115,60,Male,Asthma,ALBUTEROL,2020-01-15,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00116,35,Female,Diabetes,METFORMIN,2020-01-15,120/80,200,120,80,Young ,High,Borderline High,True,False,2020,January,1
+P00117,40,Other,Diabetes,METFORMIN,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00118,40,Male,Diabetes,METFORMIN,2019-12-01,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00119,35,Other,Asthma,ALBUTEROL,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00120,70,Other,Diabetes,METFORMIN,2020-01-15,140/90,180,140,90,Senior,High,Normal,True,False,2020,January,1
+P00121,40,Female,Heart Disease,ATORVASTATIN,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00122,40,Female,Unknown,NONE,2019-03-25,130/85,160,130,85,Adult,High,Normal,True,False,2019,March,3
+P00123,25,Female,Heart Disease,ATORVASTATIN,2019-12-01,130/85,180,130,85,Young ,High,Normal,True,False,2019,December,12
+P00124,40,Female,Diabetes,METFORMIN,2019-12-01,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00125,40,Male,Heart Disease,ATORVASTATIN,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00126,60,Male,Diabetes,METFORMIN,2019-12-01,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00127,25,Female,Asthma,ALBUTEROL,2020-01-15,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,January,1
+P00128,25,Male,Heart Disease,ATORVASTATIN,2019-12-01,130/85,160,130,85,Young ,High,Normal,True,False,2019,December,12
+P00129,35,Female,Asthma,ALBUTEROL,2019-03-25,130/85,180,130,85,Young ,High,Normal,True,False,2019,March,3
+P00130,35,Other,Asthma,ALBUTEROL,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00131,60,Other,Hypertension,LISINOPRIL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00132,70,Other,Diabetes,METFORMIN,2020-02-20,120/80,180,120,80,Senior,High,Normal,True,False,2020,February,2
+P00133,25,Female,Unknown,NONE,2020-01-15,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,January,1
+P00134,60,Other,Diabetes,METFORMIN,2020-01-15,120/80,180,120,80,Adult,High,Normal,True,False,2020,January,1
+P00135,35,Male,Unknown,NONE,2020-02-20,110/70,160,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00136,35,Other,Diabetes,METFORMIN,2020-02-20,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00137,25,Other,Asthma,ALBUTEROL,2019-12-01,130/85,160,130,85,Young ,High,Normal,True,False,2019,December,12
+P00138,40,Other,Heart Disease,ATORVASTATIN,2020-02-20,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00139,40,Male,Heart Disease,ATORVASTATIN,2018-04-05,130/85,160,130,85,Adult,High,Normal,True,False,2018,April,4
+P00140,35,Female,Hypertension,LISINOPRIL,2019-03-25,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,March,3
+P00141,70,Male,Unknown,NONE,2020-02-20,130/85,220,130,85,Senior,High,Borderline High,True,False,2020,February,2
+P00142,70,Female,Unknown,NONE,2020-02-20,120/80,180,120,80,Senior,High,Normal,True,False,2020,February,2
+P00143,35,Female,Unknown,NONE,2018-04-05,130/85,200,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00144,40,Other,Asthma,ALBUTEROL,2020-01-15,130/85,220,130,85,Adult,High,Borderline High,True,False,2020,January,1
+P00145,40,Female,Unknown,NONE,2020-01-15,120/80,180,120,80,Adult,High,Normal,True,False,2020,January,1
+P00146,60,Male,Heart Disease,ATORVASTATIN,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00147,70,Male,Asthma,ALBUTEROL,2018-04-05,130/85,180,130,85,Senior,High,Normal,True,False,2018,April,4
+P00148,60,Female,Diabetes,METFORMIN,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00149,70,Other,Unknown,NONE,2019-03-25,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,March,3
+P00150,40,Other,Unknown,NONE,2018-04-05,120/80,160,120,80,Adult,High,Normal,True,False,2018,April,4
+P00151,40,Male,Diabetes,METFORMIN,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00152,25,Other,Unknown,NONE,2020-01-15,130/85,160,130,85,Young ,High,Normal,True,False,2020,January,1
+P00153,60,Female,Diabetes,METFORMIN,2019-03-25,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00154,35,Female,Asthma,ALBUTEROL,2019-03-25,120/80,180,120,80,Young ,High,Normal,True,False,2019,March,3
+P00155,60,Male,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00156,35,Female,Diabetes,METFORMIN,2018-04-05,120/80,180,120,80,Young ,High,Normal,True,False,2018,April,4
+P00157,40,Male,Hypertension,LISINOPRIL,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00158,60,Female,Diabetes,METFORMIN,2020-02-20,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2020,February,2
+P00159,40,Male,Unknown,NONE,2018-04-05,130/85,160,130,85,Adult,High,Normal,True,False,2018,April,4
+P00160,40,Other,Asthma,ALBUTEROL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00161,40,Female,Asthma,ALBUTEROL,2019-12-01,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00162,25,Female,Diabetes,METFORMIN,2020-01-15,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00163,60,Male,Heart Disease,ATORVASTATIN,2019-03-25,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00164,40,Male,Hypertension,LISINOPRIL,2020-02-20,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2020,February,2
+P00165,35,Female,Asthma,ALBUTEROL,2020-01-15,120/80,160,120,80,Young ,High,Normal,True,False,2020,January,1
+P00166,40,Male,Unknown,NONE,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00167,40,Female,Unknown,NONE,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00168,35,Other,Heart Disease,ATORVASTATIN,2019-12-01,140/90,220,140,90,Young ,High,Borderline High,True,False,2019,December,12
+P00169,40,Male,Asthma,ALBUTEROL,2020-02-20,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00170,40,Female,Diabetes,METFORMIN,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00171,60,Other,Unknown,NONE,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00172,60,Other,Heart Disease,ATORVASTATIN,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00173,70,Female,Asthma,ALBUTEROL,2018-04-05,130/85,180,130,85,Senior,High,Normal,True,False,2018,April,4
+P00174,70,Male,Asthma,ALBUTEROL,2018-04-05,130/85,200,130,85,Senior,High,Borderline High,True,False,2018,April,4
+P00175,25,Female,Asthma,ALBUTEROL,2019-12-01,110/70,160,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00176,40,Other,Asthma,ALBUTEROL,2020-02-20,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,February,2
+P00177,60,Female,Asthma,ALBUTEROL,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00178,40,Male,Unknown,NONE,2019-12-01,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,December,12
+P00179,35,Other,Heart Disease,ATORVASTATIN,2020-02-20,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00180,40,Female,Asthma,ALBUTEROL,2019-03-25,120/80,180,120,80,Adult,High,Normal,True,False,2019,March,3
+P00181,40,Male,Hypertension,LISINOPRIL,2019-03-25,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00182,70,Other,Hypertension,LISINOPRIL,2020-01-15,120/80,180,120,80,Senior,High,Normal,True,False,2020,January,1
+P00183,40,Male,Heart Disease,ATORVASTATIN,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00184,25,Other,Diabetes,METFORMIN,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00185,40,Female,Diabetes,METFORMIN,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00186,70,Male,Diabetes,METFORMIN,2019-03-25,110/70,220,110,70,Senior,Normal,Borderline High,True,False,2019,March,3
+P00187,35,Other,Hypertension,LISINOPRIL,2020-02-20,140/90,180,140,90,Young ,High,Normal,True,False,2020,February,2
+P00188,70,Male,Diabetes,METFORMIN,2019-12-01,140/90,220,140,90,Senior,High,Borderline High,True,False,2019,December,12
+P00189,25,Male,Unknown,NONE,2020-01-15,110/70,160,110,70,Young ,Normal,Normal,True,False,2020,January,1
+P00190,40,Female,Asthma,ALBUTEROL,2019-03-25,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00191,35,Male,Hypertension,LISINOPRIL,2020-02-20,120/80,160,120,80,Young ,High,Normal,True,False,2020,February,2
+P00192,25,Other,Heart Disease,ATORVASTATIN,2020-02-20,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00193,70,Other,Heart Disease,ATORVASTATIN,2020-02-20,140/90,200,140,90,Senior,High,Borderline High,True,False,2020,February,2
+P00194,25,Other,Asthma,ALBUTEROL,2019-12-01,120/80,160,120,80,Young ,High,Normal,True,False,2019,December,12
+P00195,40,Other,Hypertension,LISINOPRIL,2019-12-01,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00196,60,Female,Diabetes,METFORMIN,2019-12-01,120/80,220,120,80,Adult,High,Borderline High,True,False,2019,December,12
+P00197,25,Male,Diabetes,METFORMIN,2018-04-05,110/70,160,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00198,25,Female,Unknown,NONE,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00199,70,Male,Unknown,NONE,2019-03-25,110/70,200,110,70,Senior,Normal,Borderline High,True,False,2019,March,3
+P00200,70,Male,Diabetes,METFORMIN,2019-12-01,110/70,200,110,70,Senior,Normal,Borderline High,True,False,2019,December,12
+P00201,35,Male,Heart Disease,ATORVASTATIN,2019-12-01,110/70,160,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00202,70,Female,Heart Disease,ATORVASTATIN,2020-02-20,130/85,180,130,85,Senior,High,Normal,True,False,2020,February,2
+P00203,40,Male,Unknown,NONE,2019-12-01,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00204,40,Female,Asthma,ALBUTEROL,2018-04-05,140/90,160,140,90,Adult,High,Normal,True,False,2018,April,4
+P00205,40,Other,Diabetes,METFORMIN,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00206,60,Other,Unknown,NONE,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00207,60,Male,Unknown,NONE,2020-02-20,130/85,160,130,85,Adult,High,Normal,True,False,2020,February,2
+P00208,40,Female,Diabetes,METFORMIN,2020-02-20,120/80,180,120,80,Adult,High,Normal,True,False,2020,February,2
+P00209,60,Other,Diabetes,METFORMIN,2020-02-20,140/90,180,140,90,Adult,High,Normal,True,False,2020,February,2
+P00210,35,Female,Heart Disease,ATORVASTATIN,2020-01-15,140/90,220,140,90,Young ,High,Borderline High,True,False,2020,January,1
+P00211,70,Female,Asthma,ALBUTEROL,2019-12-01,130/85,180,130,85,Senior,High,Normal,True,False,2019,December,12
+P00212,40,Male,Asthma,ALBUTEROL,2020-02-20,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00213,60,Other,Diabetes,METFORMIN,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00214,40,Male,Hypertension,LISINOPRIL,2019-03-25,120/80,160,120,80,Adult,High,Normal,True,False,2019,March,3
+P00215,40,Male,Unknown,NONE,2019-03-25,120/80,160,120,80,Adult,High,Normal,True,False,2019,March,3
+P00216,25,Other,Unknown,NONE,2020-02-20,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00217,70,Other,Diabetes,METFORMIN,2019-03-25,110/70,200,110,70,Senior,Normal,Borderline High,True,False,2019,March,3
+P00218,40,Female,Hypertension,LISINOPRIL,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00219,25,Other,Heart Disease,ATORVASTATIN,2020-01-15,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00220,60,Female,Diabetes,METFORMIN,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00221,25,Female,Diabetes,METFORMIN,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00222,70,Female,Unknown,NONE,2020-01-15,120/80,200,120,80,Senior,High,Borderline High,True,False,2020,January,1
+P00223,40,Other,Diabetes,METFORMIN,2020-01-15,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2020,January,1
+P00224,40,Male,Diabetes,METFORMIN,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00225,60,Female,Diabetes,METFORMIN,2019-12-01,120/80,160,120,80,Adult,High,Normal,True,False,2019,December,12
+P00226,40,Male,Unknown,NONE,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00227,70,Male,Heart Disease,ATORVASTATIN,2020-01-15,120/80,160,120,80,Senior,High,Normal,True,False,2020,January,1
+P00228,60,Other,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00229,35,Male,Diabetes,METFORMIN,2019-03-25,130/85,180,130,85,Young ,High,Normal,True,False,2019,March,3
+P00230,25,Male,Unknown,NONE,2019-12-01,140/90,220,140,90,Young ,High,Borderline High,True,False,2019,December,12
+P00231,70,Other,Heart Disease,ATORVASTATIN,2019-03-25,110/70,200,110,70,Senior,Normal,Borderline High,True,False,2019,March,3
+P00232,35,Female,Heart Disease,ATORVASTATIN,2020-02-20,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00233,40,Male,Heart Disease,ATORVASTATIN,2019-03-25,120/80,200,120,80,Adult,High,Borderline High,True,False,2019,March,3
+P00234,40,Other,Unknown,NONE,2020-01-15,140/90,160,140,90,Adult,High,Normal,True,False,2020,January,1
+P00235,60,Male,Unknown,NONE,2018-04-05,120/80,160,120,80,Adult,High,Normal,True,False,2018,April,4
+P00236,25,Male,Diabetes,METFORMIN,2018-04-05,120/80,200,120,80,Young ,High,Borderline High,True,False,2018,April,4
+P00237,60,Female,Asthma,ALBUTEROL,2020-01-15,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00238,40,Male,Heart Disease,ATORVASTATIN,2020-02-20,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00239,60,Other,Asthma,ALBUTEROL,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00240,25,Male,Unknown,NONE,2019-03-25,110/70,160,110,70,Young ,Normal,Normal,True,False,2019,March,3
+P00241,40,Female,Unknown,NONE,2020-01-15,140/90,180,140,90,Adult,High,Normal,True,False,2020,January,1
+P00242,60,Female,Unknown,NONE,2020-01-15,130/85,160,130,85,Adult,High,Normal,True,False,2020,January,1
+P00243,40,Other,Asthma,ALBUTEROL,2020-02-20,130/85,160,130,85,Adult,High,Normal,True,False,2020,February,2
+P00244,70,Female,Unknown,NONE,2019-03-25,130/85,180,130,85,Senior,High,Normal,True,False,2019,March,3
+P00245,40,Male,Diabetes,METFORMIN,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00246,70,Female,Unknown,NONE,2019-12-01,130/85,180,130,85,Senior,High,Normal,True,False,2019,December,12
+P00247,40,Other,Hypertension,LISINOPRIL,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00248,40,Female,Asthma,ALBUTEROL,2020-01-15,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00249,70,Female,Hypertension,LISINOPRIL,2018-04-05,130/85,180,130,85,Senior,High,Normal,True,False,2018,April,4
+P00250,35,Female,Unknown,NONE,2020-02-20,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00251,25,Other,Diabetes,METFORMIN,2019-12-01,140/90,180,140,90,Young ,High,Normal,True,False,2019,December,12
+P00252,35,Female,Heart Disease,ATORVASTATIN,2020-01-15,140/90,180,140,90,Young ,High,Normal,True,False,2020,January,1
+P00253,60,Female,Unknown,NONE,2020-02-20,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00254,40,Male,Diabetes,METFORMIN,2020-02-20,120/80,180,120,80,Adult,High,Normal,True,False,2020,February,2
+P00255,35,Other,Asthma,ALBUTEROL,2020-01-15,110/70,160,110,70,Young ,Normal,Normal,True,False,2020,January,1
+P00256,40,Female,Hypertension,LISINOPRIL,2020-02-20,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00257,60,Other,Hypertension,LISINOPRIL,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00258,60,Female,Hypertension,LISINOPRIL,2020-01-15,120/80,160,120,80,Adult,High,Normal,True,False,2020,January,1
+P00259,35,Female,Asthma,ALBUTEROL,2019-03-25,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2019,March,3
+P00260,35,Female,Diabetes,METFORMIN,2018-04-05,130/85,160,130,85,Young ,High,Normal,True,False,2018,April,4
+P00261,40,Male,Asthma,ALBUTEROL,2020-02-20,110/70,160,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00262,25,Male,Hypertension,LISINOPRIL,2020-02-20,140/90,220,140,90,Young ,High,Borderline High,True,False,2020,February,2
+P00263,35,Male,Unknown,NONE,2019-03-25,120/80,160,120,80,Young ,High,Normal,True,False,2019,March,3
+P00264,35,Other,Heart Disease,ATORVASTATIN,2019-03-25,140/90,180,140,90,Young ,High,Normal,True,False,2019,March,3
+P00265,70,Other,Asthma,ALBUTEROL,2019-03-25,130/85,180,130,85,Senior,High,Normal,True,False,2019,March,3
+P00266,40,Male,Asthma,ALBUTEROL,2019-12-01,140/90,160,140,90,Adult,High,Normal,True,False,2019,December,12
+P00267,70,Other,Diabetes,METFORMIN,2019-12-01,140/90,180,140,90,Senior,High,Normal,True,False,2019,December,12
+P00268,70,Female,Diabetes,METFORMIN,2019-12-01,140/90,180,140,90,Senior,High,Normal,True,False,2019,December,12
+P00269,60,Female,Asthma,ALBUTEROL,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00270,25,Female,Hypertension,LISINOPRIL,2020-02-20,130/85,160,130,85,Young ,High,Normal,True,False,2020,February,2
+P00271,40,Male,Heart Disease,ATORVASTATIN,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00272,40,Other,Diabetes,METFORMIN,2020-01-15,140/90,160,140,90,Adult,High,Normal,True,False,2020,January,1
+P00273,40,Male,Hypertension,LISINOPRIL,2020-02-20,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00274,35,Other,Unknown,NONE,2020-02-20,120/80,180,120,80,Young ,High,Normal,True,False,2020,February,2
+P00275,35,Female,Diabetes,METFORMIN,2019-03-25,130/85,160,130,85,Young ,High,Normal,True,False,2019,March,3
+P00276,40,Male,Hypertension,LISINOPRIL,2019-03-25,120/80,180,120,80,Adult,High,Normal,True,False,2019,March,3
+P00277,35,Other,Hypertension,LISINOPRIL,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00278,25,Other,Heart Disease,ATORVASTATIN,2019-03-25,140/90,200,140,90,Young ,High,Borderline High,True,False,2019,March,3
+P00279,70,Female,Heart Disease,ATORVASTATIN,2020-02-20,130/85,160,130,85,Senior,High,Normal,True,False,2020,February,2
+P00280,35,Male,Unknown,NONE,2019-03-25,110/70,160,110,70,Young ,Normal,Normal,True,False,2019,March,3
+P00281,60,Male,Hypertension,LISINOPRIL,2019-12-01,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00282,35,Male,Hypertension,LISINOPRIL,2019-03-25,140/90,180,140,90,Young ,High,Normal,True,False,2019,March,3
+P00283,40,Female,Heart Disease,ATORVASTATIN,2020-02-20,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,February,2
+P00284,25,Male,Diabetes,METFORMIN,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00285,40,Female,Diabetes,METFORMIN,2018-04-05,130/85,160,130,85,Adult,High,Normal,True,False,2018,April,4
+P00286,40,Female,Asthma,ALBUTEROL,2019-03-25,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00287,60,Female,Heart Disease,ATORVASTATIN,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00288,25,Other,Asthma,ALBUTEROL,2018-04-05,130/85,200,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00289,25,Male,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00290,25,Male,Unknown,NONE,2019-12-01,130/85,180,130,85,Young ,High,Normal,True,False,2019,December,12
+P00291,25,Female,Hypertension,LISINOPRIL,2018-04-05,120/80,180,120,80,Young ,High,Normal,True,False,2018,April,4
+P00292,25,Female,Unknown,NONE,2020-02-20,120/80,200,120,80,Young ,High,Borderline High,True,False,2020,February,2
+P00293,60,Male,Heart Disease,ATORVASTATIN,2020-02-20,120/80,160,120,80,Adult,High,Normal,True,False,2020,February,2
+P00294,35,Female,Hypertension,LISINOPRIL,2019-03-25,130/85,180,130,85,Young ,High,Normal,True,False,2019,March,3
+P00295,40,Male,Diabetes,METFORMIN,2019-03-25,120/80,180,120,80,Adult,High,Normal,True,False,2019,March,3
+P00296,25,Other,Diabetes,METFORMIN,2019-03-25,130/85,220,130,85,Young ,High,Borderline High,True,False,2019,March,3
+P00297,35,Female,Asthma,ALBUTEROL,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00298,35,Male,Heart Disease,ATORVASTATIN,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00299,40,Female,Heart Disease,ATORVASTATIN,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00300,60,Male,Diabetes,METFORMIN,2019-03-25,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00301,40,Male,Unknown,NONE,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00302,40,Female,Hypertension,LISINOPRIL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00303,35,Other,Unknown,NONE,2020-01-15,120/80,220,120,80,Young ,High,Borderline High,True,False,2020,January,1
+P00304,70,Male,Unknown,NONE,2018-04-05,140/90,200,140,90,Senior,High,Borderline High,True,False,2018,April,4
+P00305,70,Male,Diabetes,METFORMIN,2019-12-01,140/90,200,140,90,Senior,High,Borderline High,True,False,2019,December,12
+P00306,40,Male,Diabetes,METFORMIN,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00307,40,Other,Diabetes,METFORMIN,2020-02-20,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00308,35,Other,Asthma,ALBUTEROL,2018-04-05,140/90,180,140,90,Young ,High,Normal,True,False,2018,April,4
+P00309,60,Female,Unknown,NONE,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00310,40,Other,Heart Disease,ATORVASTATIN,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00311,35,Female,Hypertension,LISINOPRIL,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00312,35,Female,Asthma,ALBUTEROL,2019-12-01,130/85,220,130,85,Young ,High,Borderline High,True,False,2019,December,12
+P00313,25,Other,Heart Disease,ATORVASTATIN,2020-02-20,120/80,160,120,80,Young ,High,Normal,True,False,2020,February,2
+P00314,60,Female,Unknown,NONE,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00315,25,Other,Diabetes,METFORMIN,2018-04-05,140/90,160,140,90,Young ,High,Normal,True,False,2018,April,4
+P00316,40,Female,Unknown,NONE,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00317,25,Other,Hypertension,LISINOPRIL,2019-12-01,140/90,180,140,90,Young ,High,Normal,True,False,2019,December,12
+P00318,25,Other,Asthma,ALBUTEROL,2019-12-01,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00319,40,Female,Asthma,ALBUTEROL,2019-12-01,120/80,220,120,80,Adult,High,Borderline High,True,False,2019,December,12
+P00320,70,Male,Hypertension,LISINOPRIL,2019-03-25,130/85,160,130,85,Senior,High,Normal,True,False,2019,March,3
+P00321,35,Female,Heart Disease,ATORVASTATIN,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00322,60,Other,Heart Disease,ATORVASTATIN,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00323,25,Male,Asthma,ALBUTEROL,2019-03-25,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2019,March,3
+P00324,60,Female,Asthma,ALBUTEROL,2019-12-01,120/80,220,120,80,Adult,High,Borderline High,True,False,2019,December,12
+P00325,70,Female,Diabetes,METFORMIN,2020-02-20,130/85,160,130,85,Senior,High,Normal,True,False,2020,February,2
+P00326,70,Female,Heart Disease,ATORVASTATIN,2019-12-01,120/80,200,120,80,Senior,High,Borderline High,True,False,2019,December,12
+P00327,25,Male,Hypertension,LISINOPRIL,2019-12-01,130/85,200,130,85,Young ,High,Borderline High,True,False,2019,December,12
+P00328,40,Other,Heart Disease,ATORVASTATIN,2019-03-25,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00329,25,Female,Diabetes,METFORMIN,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00330,40,Female,Asthma,ALBUTEROL,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00331,35,Female,Asthma,ALBUTEROL,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00332,40,Female,Diabetes,METFORMIN,2020-01-15,110/70,160,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00333,25,Female,Hypertension,LISINOPRIL,2018-04-05,140/90,160,140,90,Young ,High,Normal,True,False,2018,April,4
+P00334,60,Other,Asthma,ALBUTEROL,2020-02-20,130/85,160,130,85,Adult,High,Normal,True,False,2020,February,2
+P00335,40,Other,Unknown,NONE,2020-02-20,120/80,180,120,80,Adult,High,Normal,True,False,2020,February,2
+P00336,40,Female,Asthma,ALBUTEROL,2019-12-01,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00337,25,Male,Unknown,NONE,2018-04-05,140/90,180,140,90,Young ,High,Normal,True,False,2018,April,4
+P00338,40,Other,Diabetes,METFORMIN,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00339,60,Male,Diabetes,METFORMIN,2019-03-25,120/80,180,120,80,Adult,High,Normal,True,False,2019,March,3
+P00340,70,Other,Asthma,ALBUTEROL,2020-02-20,120/80,200,120,80,Senior,High,Borderline High,True,False,2020,February,2
+P00341,40,Female,Heart Disease,ATORVASTATIN,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00342,70,Other,Unknown,NONE,2019-03-25,130/85,180,130,85,Senior,High,Normal,True,False,2019,March,3
+P00343,60,Female,Hypertension,LISINOPRIL,2019-12-01,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,December,12
+P00344,25,Other,Asthma,ALBUTEROL,2018-04-05,130/85,160,130,85,Young ,High,Normal,True,False,2018,April,4
+P00345,35,Female,Hypertension,LISINOPRIL,2018-04-05,140/90,180,140,90,Young ,High,Normal,True,False,2018,April,4
+P00346,40,Female,Asthma,ALBUTEROL,2018-04-05,110/70,160,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00347,35,Female,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00348,60,Female,Heart Disease,ATORVASTATIN,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00349,40,Male,Heart Disease,ATORVASTATIN,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00350,70,Female,Heart Disease,ATORVASTATIN,2019-03-25,140/90,180,140,90,Senior,High,Normal,True,False,2019,March,3
+P00351,40,Male,Diabetes,METFORMIN,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00352,35,Male,Diabetes,METFORMIN,2020-01-15,110/70,200,110,70,Young ,Normal,Borderline High,True,False,2020,January,1
+P00353,40,Female,Unknown,NONE,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00354,35,Male,Hypertension,LISINOPRIL,2020-01-15,110/70,200,110,70,Young ,Normal,Borderline High,True,False,2020,January,1
+P00355,40,Other,Asthma,ALBUTEROL,2018-04-05,130/85,160,130,85,Adult,High,Normal,True,False,2018,April,4
+P00356,25,Female,Asthma,ALBUTEROL,2020-02-20,120/80,160,120,80,Young ,High,Normal,True,False,2020,February,2
+P00357,70,Male,Diabetes,METFORMIN,2020-02-20,130/85,180,130,85,Senior,High,Normal,True,False,2020,February,2
+P00358,35,Female,Asthma,ALBUTEROL,2019-12-01,120/80,160,120,80,Young ,High,Normal,True,False,2019,December,12
+P00359,40,Female,Diabetes,METFORMIN,2018-04-05,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2018,April,4
+P00360,40,Female,Unknown,NONE,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00361,60,Male,Hypertension,LISINOPRIL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00362,40,Other,Unknown,NONE,2020-02-20,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00363,35,Other,Heart Disease,ATORVASTATIN,2018-04-05,110/70,160,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00364,60,Male,Heart Disease,ATORVASTATIN,2019-12-01,120/80,200,120,80,Adult,High,Borderline High,True,False,2019,December,12
+P00365,35,Female,Heart Disease,ATORVASTATIN,2018-04-05,140/90,180,140,90,Young ,High,Normal,True,False,2018,April,4
+P00366,40,Male,Unknown,NONE,2020-02-20,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00367,40,Male,Asthma,ALBUTEROL,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00368,25,Male,Hypertension,LISINOPRIL,2020-02-20,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00369,40,Female,Heart Disease,ATORVASTATIN,2020-01-15,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00370,60,Male,Heart Disease,ATORVASTATIN,2020-02-20,120/80,160,120,80,Adult,High,Normal,True,False,2020,February,2
+P00371,70,Female,Heart Disease,ATORVASTATIN,2018-04-05,130/85,160,130,85,Senior,High,Normal,True,False,2018,April,4
+P00372,25,Male,Hypertension,LISINOPRIL,2019-03-25,110/70,200,110,70,Young ,Normal,Borderline High,True,False,2019,March,3
+P00373,60,Other,Heart Disease,ATORVASTATIN,2020-02-20,130/85,160,130,85,Adult,High,Normal,True,False,2020,February,2
+P00374,40,Male,Hypertension,LISINOPRIL,2019-03-25,120/80,220,120,80,Adult,High,Borderline High,True,False,2019,March,3
+P00375,25,Male,Heart Disease,ATORVASTATIN,2020-01-15,110/70,160,110,70,Young ,Normal,Normal,True,False,2020,January,1
+P00376,60,Other,Unknown,NONE,2019-12-01,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2019,December,12
+P00377,40,Female,Unknown,NONE,2019-12-01,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00378,40,Female,Hypertension,LISINOPRIL,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00379,70,Male,Unknown,NONE,2019-12-01,120/80,200,120,80,Senior,High,Borderline High,True,False,2019,December,12
+P00380,40,Other,Hypertension,LISINOPRIL,2020-02-20,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00381,35,Female,Unknown,NONE,2019-03-25,140/90,160,140,90,Young ,High,Normal,True,False,2019,March,3
+P00382,40,Male,Unknown,NONE,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00383,40,Other,Hypertension,LISINOPRIL,2020-02-20,130/85,160,130,85,Adult,High,Normal,True,False,2020,February,2
+P00384,70,Female,Asthma,ALBUTEROL,2020-02-20,110/70,180,110,70,Senior,Normal,Normal,True,False,2020,February,2
+P00385,35,Female,Unknown,NONE,2020-02-20,140/90,200,140,90,Young ,High,Borderline High,True,False,2020,February,2
+P00386,60,Other,Heart Disease,ATORVASTATIN,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00387,60,Other,Asthma,ALBUTEROL,2020-01-15,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00388,40,Other,Hypertension,LISINOPRIL,2019-12-01,120/80,220,120,80,Adult,High,Borderline High,True,False,2019,December,12
+P00389,35,Other,Asthma,ALBUTEROL,2019-03-25,130/85,160,130,85,Young ,High,Normal,True,False,2019,March,3
+P00390,35,Male,Diabetes,METFORMIN,2020-01-15,140/90,160,140,90,Young ,High,Normal,True,False,2020,January,1
+P00391,70,Other,Diabetes,METFORMIN,2019-03-25,140/90,180,140,90,Senior,High,Normal,True,False,2019,March,3
+P00392,40,Female,Unknown,NONE,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00393,60,Female,Unknown,NONE,2018-04-05,120/80,220,120,80,Adult,High,Borderline High,True,False,2018,April,4
+P00394,70,Male,Heart Disease,ATORVASTATIN,2020-02-20,120/80,200,120,80,Senior,High,Borderline High,True,False,2020,February,2
+P00395,25,Female,Asthma,ALBUTEROL,2020-02-20,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00396,60,Female,Diabetes,METFORMIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00397,70,Other,Unknown,NONE,2020-01-15,140/90,180,140,90,Senior,High,Normal,True,False,2020,January,1
+P00398,60,Female,Asthma,ALBUTEROL,2020-01-15,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00399,40,Male,Unknown,NONE,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00400,25,Other,Unknown,NONE,2018-04-05,130/85,160,130,85,Young ,High,Normal,True,False,2018,April,4
+P00401,40,Other,Diabetes,METFORMIN,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00402,25,Male,Diabetes,METFORMIN,2018-04-05,130/85,200,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00403,40,Other,Unknown,NONE,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00404,70,Other,Hypertension,LISINOPRIL,2020-02-20,120/80,180,120,80,Senior,High,Normal,True,False,2020,February,2
+P00405,25,Male,Unknown,NONE,2020-02-20,140/90,220,140,90,Young ,High,Borderline High,True,False,2020,February,2
+P00406,40,Other,Unknown,NONE,2020-02-20,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00407,60,Male,Heart Disease,ATORVASTATIN,2018-04-05,140/90,160,140,90,Adult,High,Normal,True,False,2018,April,4
+P00408,25,Male,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00409,70,Female,Heart Disease,ATORVASTATIN,2019-03-25,130/85,160,130,85,Senior,High,Normal,True,False,2019,March,3
+P00410,25,Female,Hypertension,LISINOPRIL,2020-02-20,120/80,180,120,80,Young ,High,Normal,True,False,2020,February,2
+P00411,35,Other,Hypertension,LISINOPRIL,2019-03-25,130/85,160,130,85,Young ,High,Normal,True,False,2019,March,3
+P00412,60,Other,Unknown,NONE,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00413,70,Male,Heart Disease,ATORVASTATIN,2019-03-25,120/80,180,120,80,Senior,High,Normal,True,False,2019,March,3
+P00414,70,Other,Hypertension,LISINOPRIL,2019-03-25,130/85,180,130,85,Senior,High,Normal,True,False,2019,March,3
+P00415,40,Male,Diabetes,METFORMIN,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00416,40,Male,Unknown,NONE,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00417,40,Other,Asthma,ALBUTEROL,2018-04-05,140/90,220,140,90,Adult,High,Borderline High,True,False,2018,April,4
+P00418,70,Male,Unknown,NONE,2019-03-25,130/85,160,130,85,Senior,High,Normal,True,False,2019,March,3
+P00419,60,Female,Asthma,ALBUTEROL,2020-02-20,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00420,25,Other,Heart Disease,ATORVASTATIN,2019-03-25,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2019,March,3
+P00421,25,Female,Asthma,ALBUTEROL,2020-01-15,120/80,200,120,80,Young ,High,Borderline High,True,False,2020,January,1
+P00422,60,Other,Heart Disease,ATORVASTATIN,2020-02-20,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00423,70,Male,Diabetes,METFORMIN,2020-01-15,140/90,200,140,90,Senior,High,Borderline High,True,False,2020,January,1
+P00424,25,Other,Asthma,ALBUTEROL,2020-02-20,120/80,180,120,80,Young ,High,Normal,True,False,2020,February,2
+P00425,25,Female,Unknown,NONE,2018-04-05,130/85,200,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00426,25,Male,Heart Disease,ATORVASTATIN,2018-04-05,140/90,160,140,90,Young ,High,Normal,True,False,2018,April,4
+P00427,40,Other,Unknown,NONE,2018-04-05,120/80,220,120,80,Adult,High,Borderline High,True,False,2018,April,4
+P00428,40,Other,Hypertension,LISINOPRIL,2020-01-15,110/70,160,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00429,35,Other,Heart Disease,ATORVASTATIN,2019-12-01,130/85,200,130,85,Young ,High,Borderline High,True,False,2019,December,12
+P00430,40,Female,Asthma,ALBUTEROL,2020-02-20,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00431,60,Female,Heart Disease,ATORVASTATIN,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00432,60,Other,Unknown,NONE,2020-02-20,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2020,February,2
+P00433,60,Male,Diabetes,METFORMIN,2020-01-15,120/80,160,120,80,Adult,High,Normal,True,False,2020,January,1
+P00434,35,Male,Heart Disease,ATORVASTATIN,2019-12-01,120/80,180,120,80,Young ,High,Normal,True,False,2019,December,12
+P00435,40,Female,Asthma,ALBUTEROL,2020-01-15,110/70,160,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00436,70,Male,Hypertension,LISINOPRIL,2020-02-20,120/80,200,120,80,Senior,High,Borderline High,True,False,2020,February,2
+P00437,70,Female,Diabetes,METFORMIN,2019-12-01,140/90,180,140,90,Senior,High,Normal,True,False,2019,December,12
+P00438,35,Other,Hypertension,LISINOPRIL,2019-12-01,120/80,180,120,80,Young ,High,Normal,True,False,2019,December,12
+P00439,70,Female,Heart Disease,ATORVASTATIN,2020-01-15,130/85,220,130,85,Senior,High,Borderline High,True,False,2020,January,1
+P00440,60,Female,Unknown,NONE,2018-04-05,120/80,220,120,80,Adult,High,Borderline High,True,False,2018,April,4
+P00441,40,Other,Unknown,NONE,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00442,25,Male,Asthma,ALBUTEROL,2019-03-25,120/80,200,120,80,Young ,High,Borderline High,True,False,2019,March,3
+P00443,40,Female,Unknown,NONE,2019-03-25,120/80,180,120,80,Adult,High,Normal,True,False,2019,March,3
+P00444,40,Female,Diabetes,METFORMIN,2020-01-15,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2020,January,1
+P00445,35,Other,Unknown,NONE,2020-02-20,140/90,180,140,90,Young ,High,Normal,True,False,2020,February,2
+P00446,40,Male,Asthma,ALBUTEROL,2020-02-20,140/90,180,140,90,Adult,High,Normal,True,False,2020,February,2
+P00447,60,Female,Heart Disease,ATORVASTATIN,2020-01-15,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,January,1
+P00448,70,Other,Heart Disease,ATORVASTATIN,2020-02-20,110/70,180,110,70,Senior,Normal,Normal,True,False,2020,February,2
+P00449,60,Female,Unknown,NONE,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00450,35,Other,Hypertension,LISINOPRIL,2020-01-15,140/90,220,140,90,Young ,High,Borderline High,True,False,2020,January,1
+P00451,60,Male,Heart Disease,ATORVASTATIN,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00452,70,Male,Unknown,NONE,2020-02-20,140/90,160,140,90,Senior,High,Normal,True,False,2020,February,2
+P00453,40,Male,Asthma,ALBUTEROL,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00454,35,Male,Unknown,NONE,2020-02-20,120/80,160,120,80,Young ,High,Normal,True,False,2020,February,2
+P00455,40,Female,Heart Disease,ATORVASTATIN,2020-01-15,140/90,180,140,90,Adult,High,Normal,True,False,2020,January,1
+P00456,25,Female,Asthma,ALBUTEROL,2020-02-20,140/90,180,140,90,Young ,High,Normal,True,False,2020,February,2
+P00457,40,Male,Unknown,NONE,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00458,25,Male,Diabetes,METFORMIN,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00459,25,Male,Asthma,ALBUTEROL,2020-02-20,110/70,200,110,70,Young ,Normal,Borderline High,True,False,2020,February,2
+P00460,40,Female,Diabetes,METFORMIN,2020-01-15,140/90,180,140,90,Adult,High,Normal,True,False,2020,January,1
+P00461,35,Male,Hypertension,LISINOPRIL,2019-03-25,120/80,180,120,80,Young ,High,Normal,True,False,2019,March,3
+P00462,70,Male,Asthma,ALBUTEROL,2018-04-05,120/80,180,120,80,Senior,High,Normal,True,False,2018,April,4
+P00463,60,Male,Diabetes,METFORMIN,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00464,60,Other,Heart Disease,ATORVASTATIN,2019-03-25,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00465,70,Male,Heart Disease,ATORVASTATIN,2020-02-20,130/85,200,130,85,Senior,High,Borderline High,True,False,2020,February,2
+P00466,25,Other,Hypertension,LISINOPRIL,2020-01-15,140/90,180,140,90,Young ,High,Normal,True,False,2020,January,1
+P00467,25,Other,Asthma,ALBUTEROL,2020-02-20,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00468,35,Male,Asthma,ALBUTEROL,2019-12-01,130/85,160,130,85,Young ,High,Normal,True,False,2019,December,12
+P00469,40,Other,Asthma,ALBUTEROL,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00470,40,Male,Hypertension,LISINOPRIL,2019-12-01,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00471,25,Female,Asthma,ALBUTEROL,2018-04-05,120/80,220,120,80,Young ,High,Borderline High,True,False,2018,April,4
+P00472,60,Female,Heart Disease,ATORVASTATIN,2018-04-05,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2018,April,4
+P00473,35,Female,Diabetes,METFORMIN,2019-12-01,130/85,180,130,85,Young ,High,Normal,True,False,2019,December,12
+P00474,40,Female,Heart Disease,ATORVASTATIN,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00475,35,Other,Heart Disease,ATORVASTATIN,2020-02-20,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2020,February,2
+P00476,40,Male,Diabetes,METFORMIN,2019-12-01,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00477,40,Male,Heart Disease,ATORVASTATIN,2020-02-20,140/90,160,140,90,Adult,High,Normal,True,False,2020,February,2
+P00478,70,Male,Hypertension,LISINOPRIL,2020-02-20,130/85,200,130,85,Senior,High,Borderline High,True,False,2020,February,2
+P00479,25,Female,Diabetes,METFORMIN,2020-02-20,140/90,220,140,90,Young ,High,Borderline High,True,False,2020,February,2
+P00480,35,Female,Heart Disease,ATORVASTATIN,2018-04-05,120/80,180,120,80,Young ,High,Normal,True,False,2018,April,4
+P00481,35,Male,Unknown,NONE,2018-04-05,140/90,220,140,90,Young ,High,Borderline High,True,False,2018,April,4
+P00482,70,Female,Heart Disease,ATORVASTATIN,2019-12-01,140/90,200,140,90,Senior,High,Borderline High,True,False,2019,December,12
+P00483,60,Male,Hypertension,LISINOPRIL,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00484,60,Male,Asthma,ALBUTEROL,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00485,25,Male,Heart Disease,ATORVASTATIN,2018-04-05,140/90,180,140,90,Young ,High,Normal,True,False,2018,April,4
+P00486,25,Male,Asthma,ALBUTEROL,2020-01-15,110/70,200,110,70,Young ,Normal,Borderline High,True,False,2020,January,1
+P00487,40,Male,Unknown,NONE,2020-01-15,130/85,160,130,85,Adult,High,Normal,True,False,2020,January,1
+P00488,70,Male,Heart Disease,ATORVASTATIN,2019-12-01,140/90,180,140,90,Senior,High,Normal,True,False,2019,December,12
+P00489,60,Male,Diabetes,METFORMIN,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00490,40,Female,Asthma,ALBUTEROL,2018-04-05,140/90,160,140,90,Adult,High,Normal,True,False,2018,April,4
+P00491,35,Male,Unknown,NONE,2020-02-20,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00492,25,Male,Diabetes,METFORMIN,2019-03-25,120/80,160,120,80,Young ,High,Normal,True,False,2019,March,3
+P00493,35,Female,Diabetes,METFORMIN,2019-12-01,130/85,160,130,85,Young ,High,Normal,True,False,2019,December,12
+P00494,35,Female,Diabetes,METFORMIN,2019-03-25,120/80,220,120,80,Young ,High,Borderline High,True,False,2019,March,3
+P00495,40,Female,Diabetes,METFORMIN,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00496,60,Male,Heart Disease,ATORVASTATIN,2019-12-01,120/80,220,120,80,Adult,High,Borderline High,True,False,2019,December,12
+P00497,25,Other,Heart Disease,ATORVASTATIN,2018-04-05,130/85,220,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00498,35,Other,Heart Disease,ATORVASTATIN,2019-12-01,130/85,220,130,85,Young ,High,Borderline High,True,False,2019,December,12
+P00499,25,Female,Unknown,NONE,2019-03-25,120/80,160,120,80,Young ,High,Normal,True,False,2019,March,3
+P00500,40,Other,Unknown,NONE,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00501,40,Female,Unknown,NONE,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00502,40,Male,Hypertension,LISINOPRIL,2019-12-01,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00503,25,Other,Unknown,NONE,2019-12-01,130/85,180,130,85,Young ,High,Normal,True,False,2019,December,12
+P00504,25,Male,Heart Disease,ATORVASTATIN,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00505,60,Other,Heart Disease,ATORVASTATIN,2020-01-15,130/85,160,130,85,Adult,High,Normal,True,False,2020,January,1
+P00506,35,Male,Hypertension,LISINOPRIL,2020-01-15,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2020,January,1
+P00507,35,Other,Hypertension,LISINOPRIL,2018-04-05,120/80,220,120,80,Young ,High,Borderline High,True,False,2018,April,4
+P00508,40,Male,Unknown,NONE,2020-02-20,120/80,160,120,80,Adult,High,Normal,True,False,2020,February,2
+P00509,40,Male,Asthma,ALBUTEROL,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00510,70,Other,Hypertension,LISINOPRIL,2019-12-01,140/90,160,140,90,Senior,High,Normal,True,False,2019,December,12
+P00511,35,Male,Diabetes,METFORMIN,2019-03-25,140/90,200,140,90,Young ,High,Borderline High,True,False,2019,March,3
+P00512,60,Male,Heart Disease,ATORVASTATIN,2018-04-05,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2018,April,4
+P00513,40,Male,Diabetes,METFORMIN,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00514,40,Other,Heart Disease,ATORVASTATIN,2019-03-25,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00515,70,Other,Heart Disease,ATORVASTATIN,2020-01-15,120/80,200,120,80,Senior,High,Borderline High,True,False,2020,January,1
+P00516,60,Male,Hypertension,LISINOPRIL,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00517,40,Male,Hypertension,LISINOPRIL,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00518,60,Other,Diabetes,METFORMIN,2020-01-15,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00519,40,Other,Heart Disease,ATORVASTATIN,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00520,60,Male,Diabetes,METFORMIN,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00521,60,Male,Asthma,ALBUTEROL,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00522,25,Male,Diabetes,METFORMIN,2019-03-25,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,March,3
+P00523,40,Female,Unknown,NONE,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00524,60,Other,Diabetes,METFORMIN,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00525,70,Female,Unknown,NONE,2019-12-01,130/85,220,130,85,Senior,High,Borderline High,True,False,2019,December,12
+P00526,60,Other,Unknown,NONE,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00527,35,Other,Unknown,NONE,2019-12-01,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00528,40,Other,Asthma,ALBUTEROL,2020-01-15,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00529,35,Other,Diabetes,METFORMIN,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00530,40,Other,Diabetes,METFORMIN,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00531,35,Other,Asthma,ALBUTEROL,2019-12-01,130/85,160,130,85,Young ,High,Normal,True,False,2019,December,12
+P00532,60,Other,Heart Disease,ATORVASTATIN,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00533,60,Female,Hypertension,LISINOPRIL,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00534,25,Male,Diabetes,METFORMIN,2020-01-15,140/90,220,140,90,Young ,High,Borderline High,True,False,2020,January,1
+P00535,70,Male,Hypertension,LISINOPRIL,2020-01-15,130/85,160,130,85,Senior,High,Normal,True,False,2020,January,1
+P00536,35,Female,Asthma,ALBUTEROL,2018-04-05,120/80,220,120,80,Young ,High,Borderline High,True,False,2018,April,4
+P00537,40,Female,Heart Disease,ATORVASTATIN,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00538,25,Female,Heart Disease,ATORVASTATIN,2019-03-25,140/90,160,140,90,Young ,High,Normal,True,False,2019,March,3
+P00539,35,Female,Heart Disease,ATORVASTATIN,2019-03-25,130/85,200,130,85,Young ,High,Borderline High,True,False,2019,March,3
+P00540,35,Other,Asthma,ALBUTEROL,2019-12-01,140/90,180,140,90,Young ,High,Normal,True,False,2019,December,12
+P00541,25,Male,Unknown,NONE,2020-02-20,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00542,60,Other,Unknown,NONE,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00543,35,Male,Hypertension,LISINOPRIL,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00544,60,Male,Unknown,NONE,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00545,25,Female,Unknown,NONE,2020-01-15,140/90,160,140,90,Young ,High,Normal,True,False,2020,January,1
+P00546,60,Other,Heart Disease,ATORVASTATIN,2020-02-20,120/80,160,120,80,Adult,High,Normal,True,False,2020,February,2
+P00547,40,Female,Heart Disease,ATORVASTATIN,2019-12-01,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00548,40,Other,Hypertension,LISINOPRIL,2020-01-15,120/80,200,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00549,35,Male,Diabetes,METFORMIN,2020-01-15,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00550,70,Female,Hypertension,LISINOPRIL,2020-02-20,140/90,200,140,90,Senior,High,Borderline High,True,False,2020,February,2
+P00551,40,Female,Hypertension,LISINOPRIL,2019-12-01,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00552,60,Male,Asthma,ALBUTEROL,2018-04-05,130/85,220,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00553,35,Male,Asthma,ALBUTEROL,2019-12-01,130/85,180,130,85,Young ,High,Normal,True,False,2019,December,12
+P00554,60,Male,Hypertension,LISINOPRIL,2019-03-25,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00555,40,Female,Hypertension,LISINOPRIL,2020-01-15,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,January,1
+P00556,25,Other,Hypertension,LISINOPRIL,2019-03-25,140/90,160,140,90,Young ,High,Normal,True,False,2019,March,3
+P00557,35,Female,Unknown,NONE,2018-04-05,130/85,160,130,85,Young ,High,Normal,True,False,2018,April,4
+P00558,40,Other,Asthma,ALBUTEROL,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00559,40,Female,Hypertension,LISINOPRIL,2019-12-01,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00560,35,Female,Heart Disease,ATORVASTATIN,2019-03-25,130/85,180,130,85,Young ,High,Normal,True,False,2019,March,3
+P00561,60,Male,Heart Disease,ATORVASTATIN,2018-04-05,110/70,160,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00562,70,Other,Unknown,NONE,2018-04-05,110/70,160,110,70,Senior,Normal,Normal,True,False,2018,April,4
+P00563,40,Female,Unknown,NONE,2018-04-05,130/85,220,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00564,40,Female,Diabetes,METFORMIN,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00565,40,Male,Diabetes,METFORMIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00566,70,Male,Diabetes,METFORMIN,2020-01-15,130/85,200,130,85,Senior,High,Borderline High,True,False,2020,January,1
+P00567,60,Other,Unknown,NONE,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00568,60,Female,Unknown,NONE,2019-03-25,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00569,40,Other,Unknown,NONE,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00570,40,Female,Heart Disease,ATORVASTATIN,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00571,60,Other,Unknown,NONE,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00572,70,Male,Heart Disease,ATORVASTATIN,2019-03-25,130/85,180,130,85,Senior,High,Normal,True,False,2019,March,3
+P00573,35,Female,Diabetes,METFORMIN,2019-12-01,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00574,25,Other,Diabetes,METFORMIN,2019-12-01,130/85,160,130,85,Young ,High,Normal,True,False,2019,December,12
+P00575,25,Male,Diabetes,METFORMIN,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00576,25,Male,Hypertension,LISINOPRIL,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00577,40,Other,Hypertension,LISINOPRIL,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00578,40,Female,Asthma,ALBUTEROL,2018-04-05,130/85,220,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00579,60,Female,Asthma,ALBUTEROL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00580,35,Male,Asthma,ALBUTEROL,2019-12-01,140/90,200,140,90,Young ,High,Borderline High,True,False,2019,December,12
+P00581,70,Female,Hypertension,LISINOPRIL,2019-03-25,110/70,200,110,70,Senior,Normal,Borderline High,True,False,2019,March,3
+P00582,35,Female,Hypertension,LISINOPRIL,2019-03-25,110/70,160,110,70,Young ,Normal,Normal,True,False,2019,March,3
+P00583,70,Female,Asthma,ALBUTEROL,2018-04-05,110/70,220,110,70,Senior,Normal,Borderline High,True,False,2018,April,4
+P00584,40,Male,Asthma,ALBUTEROL,2020-02-20,120/80,200,120,80,Adult,High,Borderline High,True,False,2020,February,2
+P00585,25,Other,Unknown,NONE,2020-02-20,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00586,40,Female,Asthma,ALBUTEROL,2019-03-25,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00587,40,Male,Unknown,NONE,2020-02-20,120/80,160,120,80,Adult,High,Normal,True,False,2020,February,2
+P00588,40,Male,Heart Disease,ATORVASTATIN,2019-03-25,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00589,70,Other,Hypertension,LISINOPRIL,2019-12-01,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,December,12
+P00590,60,Female,Asthma,ALBUTEROL,2018-04-05,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2018,April,4
+P00591,60,Female,Hypertension,LISINOPRIL,2020-01-15,120/80,160,120,80,Adult,High,Normal,True,False,2020,January,1
+P00592,70,Other,Hypertension,LISINOPRIL,2018-04-05,130/85,160,130,85,Senior,High,Normal,True,False,2018,April,4
+P00593,40,Other,Hypertension,LISINOPRIL,2019-03-25,140/90,160,140,90,Adult,High,Normal,True,False,2019,March,3
+P00594,40,Male,Heart Disease,ATORVASTATIN,2019-03-25,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00595,40,Male,Diabetes,METFORMIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00596,40,Other,Asthma,ALBUTEROL,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00597,40,Female,Diabetes,METFORMIN,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00598,35,Male,Diabetes,METFORMIN,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00599,25,Male,Diabetes,METFORMIN,2019-03-25,140/90,220,140,90,Young ,High,Borderline High,True,False,2019,March,3
+P00600,40,Female,Hypertension,LISINOPRIL,2019-03-25,120/80,160,120,80,Adult,High,Normal,True,False,2019,March,3
+P00601,70,Male,Unknown,NONE,2020-02-20,140/90,180,140,90,Senior,High,Normal,True,False,2020,February,2
+P00602,25,Female,Hypertension,LISINOPRIL,2019-03-25,140/90,180,140,90,Young ,High,Normal,True,False,2019,March,3
+P00603,40,Female,Hypertension,LISINOPRIL,2019-03-25,120/80,200,120,80,Adult,High,Borderline High,True,False,2019,March,3
+P00604,70,Female,Diabetes,METFORMIN,2018-04-05,120/80,160,120,80,Senior,High,Normal,True,False,2018,April,4
+P00605,25,Other,Hypertension,LISINOPRIL,2020-01-15,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00606,70,Other,Diabetes,METFORMIN,2020-02-20,130/85,180,130,85,Senior,High,Normal,True,False,2020,February,2
+P00607,40,Other,Unknown,NONE,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00608,35,Female,Asthma,ALBUTEROL,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00609,40,Female,Diabetes,METFORMIN,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00610,40,Other,Unknown,NONE,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00611,70,Male,Asthma,ALBUTEROL,2018-04-05,110/70,180,110,70,Senior,Normal,Normal,True,False,2018,April,4
+P00612,60,Female,Heart Disease,ATORVASTATIN,2019-03-25,140/90,160,140,90,Adult,High,Normal,True,False,2019,March,3
+P00613,40,Male,Diabetes,METFORMIN,2019-12-01,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00614,40,Male,Diabetes,METFORMIN,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00615,35,Female,Heart Disease,ATORVASTATIN,2020-01-15,120/80,200,120,80,Young ,High,Borderline High,True,False,2020,January,1
+P00616,35,Female,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00617,40,Male,Diabetes,METFORMIN,2020-02-20,140/90,160,140,90,Adult,High,Normal,True,False,2020,February,2
+P00618,60,Male,Heart Disease,ATORVASTATIN,2018-04-05,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2018,April,4
+P00619,40,Other,Hypertension,LISINOPRIL,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00620,60,Other,Asthma,ALBUTEROL,2019-03-25,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00621,35,Female,Asthma,ALBUTEROL,2019-12-01,130/85,180,130,85,Young ,High,Normal,True,False,2019,December,12
+P00622,25,Other,Asthma,ALBUTEROL,2019-12-01,120/80,180,120,80,Young ,High,Normal,True,False,2019,December,12
+P00623,70,Other,Hypertension,LISINOPRIL,2019-12-01,140/90,160,140,90,Senior,High,Normal,True,False,2019,December,12
+P00624,35,Other,Heart Disease,ATORVASTATIN,2020-01-15,140/90,160,140,90,Young ,High,Normal,True,False,2020,January,1
+P00625,35,Other,Unknown,NONE,2019-12-01,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00626,40,Male,Heart Disease,ATORVASTATIN,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00627,40,Female,Diabetes,METFORMIN,2019-12-01,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00628,40,Other,Asthma,ALBUTEROL,2020-01-15,120/80,180,120,80,Adult,High,Normal,True,False,2020,January,1
+P00629,70,Male,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Senior,High,Normal,True,False,2018,April,4
+P00630,40,Male,Unknown,NONE,2018-04-05,120/80,200,120,80,Adult,High,Borderline High,True,False,2018,April,4
+P00631,60,Male,Diabetes,METFORMIN,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00632,40,Other,Hypertension,LISINOPRIL,2020-01-15,140/90,160,140,90,Adult,High,Normal,True,False,2020,January,1
+P00633,25,Other,Hypertension,LISINOPRIL,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00634,35,Female,Unknown,NONE,2019-03-25,130/85,160,130,85,Young ,High,Normal,True,False,2019,March,3
+P00635,60,Other,Diabetes,METFORMIN,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00636,25,Other,Asthma,ALBUTEROL,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00637,60,Male,Heart Disease,ATORVASTATIN,2019-12-01,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00638,60,Female,Diabetes,METFORMIN,2020-02-20,110/70,160,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00639,35,Other,Hypertension,LISINOPRIL,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00640,40,Other,Unknown,NONE,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00641,40,Male,Unknown,NONE,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00642,70,Male,Heart Disease,ATORVASTATIN,2020-02-20,140/90,200,140,90,Senior,High,Borderline High,True,False,2020,February,2
+P00643,40,Other,Unknown,NONE,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00644,70,Female,Unknown,NONE,2019-12-01,110/70,220,110,70,Senior,Normal,Borderline High,True,False,2019,December,12
+P00645,35,Female,Diabetes,METFORMIN,2019-03-25,140/90,200,140,90,Young ,High,Borderline High,True,False,2019,March,3
+P00646,35,Male,Asthma,ALBUTEROL,2020-01-15,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2020,January,1
+P00647,35,Male,Heart Disease,ATORVASTATIN,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00648,25,Other,Diabetes,METFORMIN,2019-03-25,130/85,180,130,85,Young ,High,Normal,True,False,2019,March,3
+P00649,70,Male,Asthma,ALBUTEROL,2018-04-05,140/90,180,140,90,Senior,High,Normal,True,False,2018,April,4
+P00650,40,Other,Diabetes,METFORMIN,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00651,40,Female,Diabetes,METFORMIN,2019-03-25,120/80,180,120,80,Adult,High,Normal,True,False,2019,March,3
+P00652,60,Female,Unknown,NONE,2018-04-05,120/80,160,120,80,Adult,High,Normal,True,False,2018,April,4
+P00653,60,Other,Asthma,ALBUTEROL,2019-12-01,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00654,60,Male,Heart Disease,ATORVASTATIN,2019-12-01,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,December,12
+P00655,35,Female,Heart Disease,ATORVASTATIN,2020-01-15,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00656,40,Male,Asthma,ALBUTEROL,2019-03-25,130/85,160,130,85,Adult,High,Normal,True,False,2019,March,3
+P00657,70,Female,Unknown,NONE,2020-02-20,140/90,180,140,90,Senior,High,Normal,True,False,2020,February,2
+P00658,35,Other,Hypertension,LISINOPRIL,2019-03-25,140/90,180,140,90,Young ,High,Normal,True,False,2019,March,3
+P00659,25,Other,Diabetes,METFORMIN,2019-12-01,120/80,180,120,80,Young ,High,Normal,True,False,2019,December,12
+P00660,60,Other,Unknown,NONE,2018-04-05,130/85,160,130,85,Adult,High,Normal,True,False,2018,April,4
+P00661,35,Female,Asthma,ALBUTEROL,2020-02-20,140/90,220,140,90,Young ,High,Borderline High,True,False,2020,February,2
+P00662,35,Male,Diabetes,METFORMIN,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00663,25,Male,Heart Disease,ATORVASTATIN,2020-02-20,140/90,200,140,90,Young ,High,Borderline High,True,False,2020,February,2
+P00664,40,Male,Hypertension,LISINOPRIL,2020-01-15,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2020,January,1
+P00665,40,Female,Heart Disease,ATORVASTATIN,2020-02-20,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00666,70,Female,Asthma,ALBUTEROL,2020-01-15,120/80,220,120,80,Senior,High,Borderline High,True,False,2020,January,1
+P00667,40,Female,Diabetes,METFORMIN,2020-01-15,120/80,200,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00668,60,Female,Asthma,ALBUTEROL,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00669,35,Female,Diabetes,METFORMIN,2020-02-20,140/90,160,140,90,Young ,High,Normal,True,False,2020,February,2
+P00670,25,Male,Unknown,NONE,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00671,25,Female,Hypertension,LISINOPRIL,2019-12-01,120/80,180,120,80,Young ,High,Normal,True,False,2019,December,12
+P00672,40,Female,Unknown,NONE,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00673,40,Male,Unknown,NONE,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00674,40,Female,Asthma,ALBUTEROL,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00675,35,Male,Hypertension,LISINOPRIL,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00676,40,Male,Diabetes,METFORMIN,2020-01-15,140/90,180,140,90,Adult,High,Normal,True,False,2020,January,1
+P00677,70,Other,Diabetes,METFORMIN,2018-04-05,120/80,180,120,80,Senior,High,Normal,True,False,2018,April,4
+P00678,25,Other,Heart Disease,ATORVASTATIN,2019-12-01,130/85,160,130,85,Young ,High,Normal,True,False,2019,December,12
+P00679,25,Other,Diabetes,METFORMIN,2018-04-05,140/90,220,140,90,Young ,High,Borderline High,True,False,2018,April,4
+P00680,60,Other,Asthma,ALBUTEROL,2020-02-20,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00681,60,Female,Unknown,NONE,2018-04-05,140/90,200,140,90,Adult,High,Borderline High,True,False,2018,April,4
+P00682,35,Other,Unknown,NONE,2020-01-15,120/80,180,120,80,Young ,High,Normal,True,False,2020,January,1
+P00683,70,Male,Unknown,NONE,2018-04-05,130/85,160,130,85,Senior,High,Normal,True,False,2018,April,4
+P00684,40,Female,Hypertension,LISINOPRIL,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00685,40,Other,Diabetes,METFORMIN,2020-02-20,120/80,200,120,80,Adult,High,Borderline High,True,False,2020,February,2
+P00686,35,Male,Asthma,ALBUTEROL,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00687,60,Female,Hypertension,LISINOPRIL,2020-01-15,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2020,January,1
+P00688,40,Female,Heart Disease,ATORVASTATIN,2020-02-20,120/80,160,120,80,Adult,High,Normal,True,False,2020,February,2
+P00689,60,Other,Asthma,ALBUTEROL,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00690,40,Female,Asthma,ALBUTEROL,2019-12-01,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00691,40,Male,Asthma,ALBUTEROL,2019-03-25,140/90,160,140,90,Adult,High,Normal,True,False,2019,March,3
+P00692,35,Female,Unknown,NONE,2019-12-01,120/80,160,120,80,Young ,High,Normal,True,False,2019,December,12
+P00693,40,Male,Asthma,ALBUTEROL,2019-03-25,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00694,70,Female,Diabetes,METFORMIN,2018-04-05,140/90,180,140,90,Senior,High,Normal,True,False,2018,April,4
+P00695,25,Other,Asthma,ALBUTEROL,2020-02-20,130/85,160,130,85,Young ,High,Normal,True,False,2020,February,2
+P00696,70,Male,Unknown,NONE,2018-04-05,130/85,160,130,85,Senior,High,Normal,True,False,2018,April,4
+P00697,70,Female,Asthma,ALBUTEROL,2019-03-25,130/85,220,130,85,Senior,High,Borderline High,True,False,2019,March,3
+P00698,25,Female,Heart Disease,ATORVASTATIN,2019-03-25,140/90,200,140,90,Young ,High,Borderline High,True,False,2019,March,3
+P00699,70,Female,Heart Disease,ATORVASTATIN,2019-03-25,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,March,3
+P00700,40,Male,Unknown,NONE,2020-01-15,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00701,40,Male,Diabetes,METFORMIN,2020-02-20,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00702,40,Male,Diabetes,METFORMIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00703,25,Other,Hypertension,LISINOPRIL,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00704,70,Other,Unknown,NONE,2019-12-01,140/90,160,140,90,Senior,High,Normal,True,False,2019,December,12
+P00705,25,Male,Asthma,ALBUTEROL,2019-03-25,130/85,180,130,85,Young ,High,Normal,True,False,2019,March,3
+P00706,40,Female,Unknown,NONE,2019-03-25,120/80,160,120,80,Adult,High,Normal,True,False,2019,March,3
+P00707,70,Other,Hypertension,LISINOPRIL,2019-03-25,130/85,200,130,85,Senior,High,Borderline High,True,False,2019,March,3
+P00708,70,Male,Unknown,NONE,2018-04-05,140/90,180,140,90,Senior,High,Normal,True,False,2018,April,4
+P00709,60,Female,Unknown,NONE,2019-12-01,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00710,60,Other,Hypertension,LISINOPRIL,2020-01-15,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00711,40,Female,Diabetes,METFORMIN,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00712,35,Female,Asthma,ALBUTEROL,2020-01-15,120/80,200,120,80,Young ,High,Borderline High,True,False,2020,January,1
+P00713,60,Female,Hypertension,LISINOPRIL,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00714,25,Female,Heart Disease,ATORVASTATIN,2019-03-25,120/80,180,120,80,Young ,High,Normal,True,False,2019,March,3
+P00715,60,Other,Diabetes,METFORMIN,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00716,40,Other,Heart Disease,ATORVASTATIN,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00717,70,Other,Diabetes,METFORMIN,2018-04-05,130/85,200,130,85,Senior,High,Borderline High,True,False,2018,April,4
+P00718,40,Male,Asthma,ALBUTEROL,2018-04-05,140/90,220,140,90,Adult,High,Borderline High,True,False,2018,April,4
+P00719,70,Other,Asthma,ALBUTEROL,2020-02-20,110/70,180,110,70,Senior,Normal,Normal,True,False,2020,February,2
+P00720,70,Female,Unknown,NONE,2020-02-20,130/85,200,130,85,Senior,High,Borderline High,True,False,2020,February,2
+P00721,35,Other,Heart Disease,ATORVASTATIN,2019-12-01,140/90,160,140,90,Young ,High,Normal,True,False,2019,December,12
+P00722,60,Female,Diabetes,METFORMIN,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00723,25,Male,Asthma,ALBUTEROL,2020-01-15,120/80,180,120,80,Young ,High,Normal,True,False,2020,January,1
+P00724,25,Female,Hypertension,LISINOPRIL,2020-02-20,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00725,40,Female,Asthma,ALBUTEROL,2020-02-20,140/90,180,140,90,Adult,High,Normal,True,False,2020,February,2
+P00726,70,Female,Hypertension,LISINOPRIL,2020-02-20,110/70,180,110,70,Senior,Normal,Normal,True,False,2020,February,2
+P00727,25,Male,Diabetes,METFORMIN,2019-12-01,120/80,180,120,80,Young ,High,Normal,True,False,2019,December,12
+P00728,35,Other,Asthma,ALBUTEROL,2018-04-05,140/90,200,140,90,Young ,High,Borderline High,True,False,2018,April,4
+P00729,70,Other,Asthma,ALBUTEROL,2019-03-25,120/80,160,120,80,Senior,High,Normal,True,False,2019,March,3
+P00730,35,Male,Diabetes,METFORMIN,2019-12-01,110/70,160,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00731,25,Female,Asthma,ALBUTEROL,2020-02-20,140/90,200,140,90,Young ,High,Borderline High,True,False,2020,February,2
+P00732,25,Other,Hypertension,LISINOPRIL,2019-12-01,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00733,40,Male,Asthma,ALBUTEROL,2020-01-15,130/85,160,130,85,Adult,High,Normal,True,False,2020,January,1
+P00734,25,Other,Heart Disease,ATORVASTATIN,2020-02-20,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00735,70,Male,Unknown,NONE,2020-01-15,130/85,200,130,85,Senior,High,Borderline High,True,False,2020,January,1
+P00736,70,Female,Hypertension,LISINOPRIL,2020-02-20,140/90,220,140,90,Senior,High,Borderline High,True,False,2020,February,2
+P00737,70,Other,Heart Disease,ATORVASTATIN,2019-12-01,130/85,180,130,85,Senior,High,Normal,True,False,2019,December,12
+P00738,40,Male,Diabetes,METFORMIN,2018-04-05,140/90,200,140,90,Adult,High,Borderline High,True,False,2018,April,4
+P00739,40,Other,Hypertension,LISINOPRIL,2019-03-25,140/90,160,140,90,Adult,High,Normal,True,False,2019,March,3
+P00740,25,Other,Unknown,NONE,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00741,40,Other,Unknown,NONE,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00742,40,Other,Diabetes,METFORMIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00743,40,Male,Diabetes,METFORMIN,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00744,25,Female,Hypertension,LISINOPRIL,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00745,40,Male,Asthma,ALBUTEROL,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00746,25,Male,Diabetes,METFORMIN,2019-12-01,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00747,25,Male,Asthma,ALBUTEROL,2020-02-20,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00748,25,Female,Heart Disease,ATORVASTATIN,2018-04-05,130/85,200,130,85,Young ,High,Borderline High,True,False,2018,April,4
+P00749,60,Other,Unknown,NONE,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00750,70,Other,Asthma,ALBUTEROL,2018-04-05,110/70,180,110,70,Senior,Normal,Normal,True,False,2018,April,4
+P00751,25,Other,Unknown,NONE,2020-02-20,140/90,180,140,90,Young ,High,Normal,True,False,2020,February,2
+P00752,60,Female,Asthma,ALBUTEROL,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00753,40,Other,Heart Disease,ATORVASTATIN,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00754,40,Female,Diabetes,METFORMIN,2020-02-20,130/85,220,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00755,70,Other,Heart Disease,ATORVASTATIN,2018-04-05,120/80,160,120,80,Senior,High,Normal,True,False,2018,April,4
+P00756,40,Other,Diabetes,METFORMIN,2019-12-01,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00757,70,Male,Diabetes,METFORMIN,2020-02-20,110/70,180,110,70,Senior,Normal,Normal,True,False,2020,February,2
+P00758,40,Female,Unknown,NONE,2020-01-15,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2020,January,1
+P00759,70,Male,Heart Disease,ATORVASTATIN,2018-04-05,130/85,220,130,85,Senior,High,Borderline High,True,False,2018,April,4
+P00760,40,Male,Asthma,ALBUTEROL,2019-03-25,140/90,160,140,90,Adult,High,Normal,True,False,2019,March,3
+P00761,40,Male,Heart Disease,ATORVASTATIN,2020-02-20,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00762,40,Female,Unknown,NONE,2019-03-25,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00763,40,Female,Diabetes,METFORMIN,2018-04-05,120/80,220,120,80,Adult,High,Borderline High,True,False,2018,April,4
+P00764,40,Other,Unknown,NONE,2019-03-25,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00765,25,Male,Hypertension,LISINOPRIL,2020-02-20,140/90,180,140,90,Young ,High,Normal,True,False,2020,February,2
+P00766,35,Other,Hypertension,LISINOPRIL,2018-04-05,140/90,220,140,90,Young ,High,Borderline High,True,False,2018,April,4
+P00767,60,Male,Asthma,ALBUTEROL,2020-01-15,130/85,160,130,85,Adult,High,Normal,True,False,2020,January,1
+P00768,35,Female,Unknown,NONE,2020-02-20,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00769,35,Female,Asthma,ALBUTEROL,2019-12-01,130/85,180,130,85,Young ,High,Normal,True,False,2019,December,12
+P00770,70,Female,Asthma,ALBUTEROL,2020-02-20,110/70,160,110,70,Senior,Normal,Normal,True,False,2020,February,2
+P00771,25,Male,Hypertension,LISINOPRIL,2018-04-05,120/80,160,120,80,Young ,High,Normal,True,False,2018,April,4
+P00772,70,Female,Asthma,ALBUTEROL,2020-02-20,130/85,180,130,85,Senior,High,Normal,True,False,2020,February,2
+P00773,25,Male,Hypertension,LISINOPRIL,2020-01-15,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00774,25,Other,Diabetes,METFORMIN,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00775,40,Male,Unknown,NONE,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00776,40,Other,Asthma,ALBUTEROL,2019-03-25,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00777,40,Male,Hypertension,LISINOPRIL,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00778,40,Other,Heart Disease,ATORVASTATIN,2018-04-05,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2018,April,4
+P00779,70,Female,Asthma,ALBUTEROL,2019-03-25,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,March,3
+P00780,40,Other,Diabetes,METFORMIN,2020-01-15,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2020,January,1
+P00781,70,Female,Diabetes,METFORMIN,2020-01-15,110/70,180,110,70,Senior,Normal,Normal,True,False,2020,January,1
+P00782,35,Female,Heart Disease,ATORVASTATIN,2020-02-20,120/80,180,120,80,Young ,High,Normal,True,False,2020,February,2
+P00783,35,Other,Hypertension,LISINOPRIL,2019-12-01,130/85,200,130,85,Young ,High,Borderline High,True,False,2019,December,12
+P00784,40,Male,Asthma,ALBUTEROL,2019-12-01,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00785,40,Male,Hypertension,LISINOPRIL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00786,70,Male,Diabetes,METFORMIN,2020-02-20,110/70,180,110,70,Senior,Normal,Normal,True,False,2020,February,2
+P00787,40,Male,Hypertension,LISINOPRIL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00788,70,Male,Diabetes,METFORMIN,2019-03-25,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,March,3
+P00789,40,Female,Hypertension,LISINOPRIL,2020-02-20,140/90,160,140,90,Adult,High,Normal,True,False,2020,February,2
+P00790,35,Male,Heart Disease,ATORVASTATIN,2019-03-25,120/80,180,120,80,Young ,High,Normal,True,False,2019,March,3
+P00791,25,Female,Unknown,NONE,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00792,40,Female,Heart Disease,ATORVASTATIN,2019-12-01,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00793,40,Female,Heart Disease,ATORVASTATIN,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00794,70,Other,Unknown,NONE,2019-03-25,110/70,160,110,70,Senior,Normal,Normal,True,False,2019,March,3
+P00795,35,Other,Unknown,NONE,2019-03-25,120/80,180,120,80,Young ,High,Normal,True,False,2019,March,3
+P00796,40,Female,Asthma,ALBUTEROL,2020-02-20,130/85,180,130,85,Adult,High,Normal,True,False,2020,February,2
+P00797,70,Other,Asthma,ALBUTEROL,2018-04-05,120/80,180,120,80,Senior,High,Normal,True,False,2018,April,4
+P00798,40,Male,Heart Disease,ATORVASTATIN,2019-12-01,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00799,40,Male,Heart Disease,ATORVASTATIN,2019-03-25,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00800,60,Female,Diabetes,METFORMIN,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00801,25,Male,Diabetes,METFORMIN,2019-12-01,130/85,200,130,85,Young ,High,Borderline High,True,False,2019,December,12
+P00802,60,Female,Asthma,ALBUTEROL,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00803,35,Female,Asthma,ALBUTEROL,2019-03-25,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,March,3
+P00804,40,Male,Diabetes,METFORMIN,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00805,35,Other,Diabetes,METFORMIN,2020-02-20,140/90,180,140,90,Young ,High,Normal,True,False,2020,February,2
+P00806,70,Male,Hypertension,LISINOPRIL,2018-04-05,110/70,220,110,70,Senior,Normal,Borderline High,True,False,2018,April,4
+P00807,40,Male,Hypertension,LISINOPRIL,2018-04-05,140/90,220,140,90,Adult,High,Borderline High,True,False,2018,April,4
+P00808,60,Female,Diabetes,METFORMIN,2019-03-25,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00809,60,Female,Hypertension,LISINOPRIL,2019-12-01,140/90,160,140,90,Adult,High,Normal,True,False,2019,December,12
+P00810,60,Female,Unknown,NONE,2019-03-25,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00811,35,Female,Asthma,ALBUTEROL,2019-12-01,140/90,180,140,90,Young ,High,Normal,True,False,2019,December,12
+P00812,40,Other,Asthma,ALBUTEROL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00813,40,Other,Diabetes,METFORMIN,2019-03-25,110/70,220,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00814,70,Other,Heart Disease,ATORVASTATIN,2020-01-15,120/80,180,120,80,Senior,High,Normal,True,False,2020,January,1
+P00815,40,Female,Diabetes,METFORMIN,2018-04-05,120/80,220,120,80,Adult,High,Borderline High,True,False,2018,April,4
+P00816,35,Female,Hypertension,LISINOPRIL,2019-12-01,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2019,December,12
+P00817,70,Female,Heart Disease,ATORVASTATIN,2019-12-01,130/85,180,130,85,Senior,High,Normal,True,False,2019,December,12
+P00818,60,Other,Hypertension,LISINOPRIL,2020-01-15,140/90,160,140,90,Adult,High,Normal,True,False,2020,January,1
+P00819,25,Female,Unknown,NONE,2020-02-20,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00820,35,Male,Hypertension,LISINOPRIL,2020-01-15,120/80,160,120,80,Young ,High,Normal,True,False,2020,January,1
+P00821,35,Male,Unknown,NONE,2020-01-15,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,January,1
+P00822,40,Female,Unknown,NONE,2019-12-01,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00823,40,Male,Hypertension,LISINOPRIL,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00824,35,Male,Hypertension,LISINOPRIL,2020-01-15,130/85,180,130,85,Young ,High,Normal,True,False,2020,January,1
+P00825,35,Other,Unknown,NONE,2020-02-20,140/90,200,140,90,Young ,High,Borderline High,True,False,2020,February,2
+P00826,60,Female,Heart Disease,ATORVASTATIN,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00827,60,Female,Unknown,NONE,2020-01-15,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,January,1
+P00828,70,Other,Asthma,ALBUTEROL,2020-01-15,140/90,160,140,90,Senior,High,Normal,True,False,2020,January,1
+P00829,25,Male,Unknown,NONE,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00830,40,Male,Heart Disease,ATORVASTATIN,2018-04-05,120/80,220,120,80,Adult,High,Borderline High,True,False,2018,April,4
+P00831,25,Female,Asthma,ALBUTEROL,2020-01-15,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00832,70,Male,Diabetes,METFORMIN,2020-01-15,140/90,180,140,90,Senior,High,Normal,True,False,2020,January,1
+P00833,60,Other,Diabetes,METFORMIN,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00834,40,Other,Heart Disease,ATORVASTATIN,2020-02-20,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00835,60,Female,Unknown,NONE,2020-01-15,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,January,1
+P00836,40,Other,Hypertension,LISINOPRIL,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00837,60,Other,Heart Disease,ATORVASTATIN,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00838,40,Female,Asthma,ALBUTEROL,2019-03-25,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00839,40,Other,Asthma,ALBUTEROL,2019-12-01,140/90,160,140,90,Adult,High,Normal,True,False,2019,December,12
+P00840,40,Other,Diabetes,METFORMIN,2019-03-25,130/85,160,130,85,Adult,High,Normal,True,False,2019,March,3
+P00841,70,Other,Asthma,ALBUTEROL,2020-01-15,130/85,180,130,85,Senior,High,Normal,True,False,2020,January,1
+P00842,40,Male,Heart Disease,ATORVASTATIN,2020-02-20,120/80,160,120,80,Adult,High,Normal,True,False,2020,February,2
+P00843,40,Female,Asthma,ALBUTEROL,2019-12-01,140/90,220,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00844,40,Female,Heart Disease,ATORVASTATIN,2019-03-25,120/80,160,120,80,Adult,High,Normal,True,False,2019,March,3
+P00845,25,Female,Hypertension,LISINOPRIL,2018-04-05,130/85,160,130,85,Young ,High,Normal,True,False,2018,April,4
+P00846,35,Male,Diabetes,METFORMIN,2020-02-20,110/70,160,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00847,25,Male,Asthma,ALBUTEROL,2019-03-25,120/80,220,120,80,Young ,High,Borderline High,True,False,2019,March,3
+P00848,40,Female,Heart Disease,ATORVASTATIN,2018-04-05,110/70,160,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00849,40,Male,Unknown,NONE,2020-01-15,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00850,60,Female,Diabetes,METFORMIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00851,40,Male,Hypertension,LISINOPRIL,2019-03-25,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,March,3
+P00852,40,Other,Heart Disease,ATORVASTATIN,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00853,40,Other,Hypertension,LISINOPRIL,2020-01-15,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,January,1
+P00854,40,Female,Hypertension,LISINOPRIL,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00855,40,Male,Asthma,ALBUTEROL,2018-04-05,140/90,200,140,90,Adult,High,Borderline High,True,False,2018,April,4
+P00856,70,Male,Asthma,ALBUTEROL,2020-01-15,140/90,200,140,90,Senior,High,Borderline High,True,False,2020,January,1
+P00857,40,Other,Heart Disease,ATORVASTATIN,2018-04-05,120/80,180,120,80,Adult,High,Normal,True,False,2018,April,4
+P00858,35,Other,Unknown,NONE,2020-01-15,140/90,200,140,90,Young ,High,Borderline High,True,False,2020,January,1
+P00859,35,Male,Heart Disease,ATORVASTATIN,2020-02-20,120/80,200,120,80,Young ,High,Borderline High,True,False,2020,February,2
+P00860,40,Male,Unknown,NONE,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00861,70,Male,Hypertension,LISINOPRIL,2020-02-20,130/85,160,130,85,Senior,High,Normal,True,False,2020,February,2
+P00862,60,Male,Diabetes,METFORMIN,2019-12-01,130/85,160,130,85,Adult,High,Normal,True,False,2019,December,12
+P00863,40,Male,Heart Disease,ATORVASTATIN,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00864,35,Male,Heart Disease,ATORVASTATIN,2019-12-01,140/90,220,140,90,Young ,High,Borderline High,True,False,2019,December,12
+P00865,60,Female,Unknown,NONE,2020-01-15,120/80,200,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00866,40,Male,Hypertension,LISINOPRIL,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00867,60,Other,Hypertension,LISINOPRIL,2020-02-20,120/80,180,120,80,Adult,High,Normal,True,False,2020,February,2
+P00868,25,Female,Unknown,NONE,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00869,35,Male,Hypertension,LISINOPRIL,2020-02-20,120/80,220,120,80,Young ,High,Borderline High,True,False,2020,February,2
+P00870,40,Other,Asthma,ALBUTEROL,2020-02-20,130/85,160,130,85,Adult,High,Normal,True,False,2020,February,2
+P00871,40,Female,Diabetes,METFORMIN,2019-12-01,140/90,180,140,90,Adult,High,Normal,True,False,2019,December,12
+P00872,70,Other,Heart Disease,ATORVASTATIN,2020-02-20,120/80,160,120,80,Senior,High,Normal,True,False,2020,February,2
+P00873,40,Male,Diabetes,METFORMIN,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00874,40,Male,Heart Disease,ATORVASTATIN,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00875,70,Male,Asthma,ALBUTEROL,2020-02-20,140/90,220,140,90,Senior,High,Borderline High,True,False,2020,February,2
+P00876,70,Male,Hypertension,LISINOPRIL,2020-01-15,120/80,160,120,80,Senior,High,Normal,True,False,2020,January,1
+P00877,40,Female,Unknown,NONE,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00878,60,Female,Asthma,ALBUTEROL,2019-03-25,140/90,160,140,90,Adult,High,Normal,True,False,2019,March,3
+P00879,60,Other,Diabetes,METFORMIN,2019-03-25,120/80,200,120,80,Adult,High,Borderline High,True,False,2019,March,3
+P00880,70,Male,Unknown,NONE,2019-12-01,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,December,12
+P00881,60,Other,Hypertension,LISINOPRIL,2020-02-20,130/85,220,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00882,25,Female,Asthma,ALBUTEROL,2019-12-01,130/85,220,130,85,Young ,High,Borderline High,True,False,2019,December,12
+P00883,70,Male,Unknown,NONE,2018-04-05,130/85,180,130,85,Senior,High,Normal,True,False,2018,April,4
+P00884,70,Male,Asthma,ALBUTEROL,2020-01-15,130/85,220,130,85,Senior,High,Borderline High,True,False,2020,January,1
+P00885,40,Female,Asthma,ALBUTEROL,2020-01-15,130/85,220,130,85,Adult,High,Borderline High,True,False,2020,January,1
+P00886,60,Female,Hypertension,LISINOPRIL,2019-03-25,120/80,160,120,80,Adult,High,Normal,True,False,2019,March,3
+P00887,70,Female,Heart Disease,ATORVASTATIN,2019-03-25,140/90,160,140,90,Senior,High,Normal,True,False,2019,March,3
+P00888,25,Female,Unknown,NONE,2019-03-25,120/80,180,120,80,Young ,High,Normal,True,False,2019,March,3
+P00889,40,Female,Hypertension,LISINOPRIL,2020-02-20,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00890,40,Male,Asthma,ALBUTEROL,2018-04-05,130/85,220,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00891,70,Female,Hypertension,LISINOPRIL,2018-04-05,120/80,200,120,80,Senior,High,Borderline High,True,False,2018,April,4
+P00892,25,Male,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00893,35,Male,Unknown,NONE,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00894,25,Female,Heart Disease,ATORVASTATIN,2019-03-25,130/85,160,130,85,Young ,High,Normal,True,False,2019,March,3
+P00895,25,Female,Diabetes,METFORMIN,2020-01-15,130/85,220,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00896,40,Male,Unknown,NONE,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00897,40,Female,Heart Disease,ATORVASTATIN,2018-04-05,110/70,180,110,70,Adult,Normal,Normal,True,False,2018,April,4
+P00898,35,Female,Asthma,ALBUTEROL,2019-03-25,130/85,220,130,85,Young ,High,Borderline High,True,False,2019,March,3
+P00899,60,Female,Unknown,NONE,2018-04-05,130/85,200,130,85,Adult,High,Borderline High,True,False,2018,April,4
+P00900,60,Other,Unknown,NONE,2019-12-01,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,December,12
+P00901,25,Male,Hypertension,LISINOPRIL,2020-01-15,110/70,200,110,70,Young ,Normal,Borderline High,True,False,2020,January,1
+P00902,40,Other,Asthma,ALBUTEROL,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00903,40,Female,Diabetes,METFORMIN,2020-02-20,140/90,180,140,90,Adult,High,Normal,True,False,2020,February,2
+P00904,60,Other,Heart Disease,ATORVASTATIN,2019-03-25,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2019,March,3
+P00905,35,Female,Hypertension,LISINOPRIL,2020-02-20,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00906,40,Other,Heart Disease,ATORVASTATIN,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00907,35,Female,Diabetes,METFORMIN,2019-12-01,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00908,70,Other,Diabetes,METFORMIN,2018-04-05,140/90,160,140,90,Senior,High,Normal,True,False,2018,April,4
+P00909,70,Other,Unknown,NONE,2018-04-05,130/85,220,130,85,Senior,High,Borderline High,True,False,2018,April,4
+P00910,40,Other,Diabetes,METFORMIN,2019-03-25,130/85,180,130,85,Adult,High,Normal,True,False,2019,March,3
+P00911,60,Male,Heart Disease,ATORVASTATIN,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00912,40,Other,Asthma,ALBUTEROL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00913,40,Male,Asthma,ALBUTEROL,2018-04-05,130/85,160,130,85,Adult,High,Normal,True,False,2018,April,4
+P00914,70,Female,Unknown,NONE,2019-12-01,110/70,160,110,70,Senior,Normal,Normal,True,False,2019,December,12
+P00915,25,Other,Heart Disease,ATORVASTATIN,2020-02-20,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00916,25,Female,Heart Disease,ATORVASTATIN,2019-12-01,120/80,200,120,80,Young ,High,Borderline High,True,False,2019,December,12
+P00917,60,Female,Diabetes,METFORMIN,2020-01-15,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,January,1
+P00918,40,Other,Heart Disease,ATORVASTATIN,2020-01-15,110/70,160,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00919,35,Male,Hypertension,LISINOPRIL,2020-01-15,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00920,40,Other,Diabetes,METFORMIN,2019-03-25,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00921,25,Female,Hypertension,LISINOPRIL,2019-03-25,140/90,180,140,90,Young ,High,Normal,True,False,2019,March,3
+P00922,25,Female,Unknown,NONE,2019-03-25,140/90,200,140,90,Young ,High,Borderline High,True,False,2019,March,3
+P00923,70,Other,Asthma,ALBUTEROL,2019-12-01,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,December,12
+P00924,40,Male,Unknown,NONE,2019-03-25,140/90,160,140,90,Adult,High,Normal,True,False,2019,March,3
+P00925,40,Male,Asthma,ALBUTEROL,2020-02-20,140/90,220,140,90,Adult,High,Borderline High,True,False,2020,February,2
+P00926,25,Female,Unknown,NONE,2020-01-15,120/80,180,120,80,Young ,High,Normal,True,False,2020,January,1
+P00927,35,Female,Heart Disease,ATORVASTATIN,2019-12-01,110/70,160,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00928,60,Male,Hypertension,LISINOPRIL,2020-01-15,110/70,160,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00929,60,Other,Asthma,ALBUTEROL,2019-03-25,140/90,180,140,90,Adult,High,Normal,True,False,2019,March,3
+P00930,40,Female,Diabetes,METFORMIN,2019-12-01,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00931,60,Male,Hypertension,LISINOPRIL,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00932,25,Female,Diabetes,METFORMIN,2020-02-20,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00933,25,Other,Hypertension,LISINOPRIL,2019-03-25,130/85,200,130,85,Young ,High,Borderline High,True,False,2019,March,3
+P00934,40,Male,Hypertension,LISINOPRIL,2019-03-25,130/85,160,130,85,Adult,High,Normal,True,False,2019,March,3
+P00935,40,Female,Unknown,NONE,2020-02-20,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2020,February,2
+P00936,70,Other,Asthma,ALBUTEROL,2020-02-20,120/80,180,120,80,Senior,High,Normal,True,False,2020,February,2
+P00937,40,Female,Asthma,ALBUTEROL,2018-04-05,130/85,180,130,85,Adult,High,Normal,True,False,2018,April,4
+P00938,35,Other,Hypertension,LISINOPRIL,2019-03-25,120/80,180,120,80,Young ,High,Normal,True,False,2019,March,3
+P00939,60,Other,Heart Disease,ATORVASTATIN,2019-03-25,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00940,40,Male,Heart Disease,ATORVASTATIN,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00941,40,Other,Diabetes,METFORMIN,2019-12-01,120/80,220,120,80,Adult,High,Borderline High,True,False,2019,December,12
+P00942,70,Female,Diabetes,METFORMIN,2019-12-01,120/80,200,120,80,Senior,High,Borderline High,True,False,2019,December,12
+P00943,40,Other,Unknown,NONE,2020-01-15,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00944,25,Other,Hypertension,LISINOPRIL,2019-12-01,110/70,180,110,70,Young ,Normal,Normal,True,False,2019,December,12
+P00945,60,Male,Diabetes,METFORMIN,2020-02-20,140/90,180,140,90,Adult,High,Normal,True,False,2020,February,2
+P00946,40,Other,Diabetes,METFORMIN,2019-12-01,120/80,160,120,80,Adult,High,Normal,True,False,2019,December,12
+P00947,40,Other,Hypertension,LISINOPRIL,2019-12-01,130/85,180,130,85,Adult,High,Normal,True,False,2019,December,12
+P00948,60,Female,Unknown,NONE,2020-01-15,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,January,1
+P00949,25,Male,Diabetes,METFORMIN,2018-04-05,130/85,180,130,85,Young ,High,Normal,True,False,2018,April,4
+P00950,35,Male,Unknown,NONE,2019-12-01,130/85,160,130,85,Young ,High,Normal,True,False,2019,December,12
+P00951,70,Male,Asthma,ALBUTEROL,2019-12-01,130/85,160,130,85,Senior,High,Normal,True,False,2019,December,12
+P00952,60,Other,Unknown,NONE,2018-04-05,140/90,200,140,90,Adult,High,Borderline High,True,False,2018,April,4
+P00953,60,Male,Heart Disease,ATORVASTATIN,2020-01-15,120/80,180,120,80,Adult,High,Normal,True,False,2020,January,1
+P00954,35,Other,Heart Disease,ATORVASTATIN,2018-04-05,110/70,180,110,70,Young ,Normal,Normal,True,False,2018,April,4
+P00955,60,Other,Unknown,NONE,2020-01-15,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,January,1
+P00956,25,Female,Heart Disease,ATORVASTATIN,2020-02-20,110/70,180,110,70,Young ,Normal,Normal,True,False,2020,February,2
+P00957,25,Female,Asthma,ALBUTEROL,2020-01-15,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,January,1
+P00958,35,Female,Hypertension,LISINOPRIL,2020-02-20,120/80,160,120,80,Young ,High,Normal,True,False,2020,February,2
+P00959,70,Female,Heart Disease,ATORVASTATIN,2020-02-20,130/85,180,130,85,Senior,High,Normal,True,False,2020,February,2
+P00960,40,Female,Heart Disease,ATORVASTATIN,2020-01-15,140/90,180,140,90,Adult,High,Normal,True,False,2020,January,1
+P00961,40,Other,Unknown,NONE,2019-03-25,130/85,220,130,85,Adult,High,Borderline High,True,False,2019,March,3
+P00962,40,Other,Asthma,ALBUTEROL,2020-01-15,140/90,200,140,90,Adult,High,Borderline High,True,False,2020,January,1
+P00963,60,Male,Hypertension,LISINOPRIL,2019-12-01,120/80,200,120,80,Adult,High,Borderline High,True,False,2019,December,12
+P00964,40,Other,Unknown,NONE,2019-12-01,120/80,180,120,80,Adult,High,Normal,True,False,2019,December,12
+P00965,35,Other,Unknown,NONE,2019-03-25,140/90,220,140,90,Young ,High,Borderline High,True,False,2019,March,3
+P00966,35,Female,Asthma,ALBUTEROL,2020-02-20,130/85,200,130,85,Young ,High,Borderline High,True,False,2020,February,2
+P00967,70,Other,Hypertension,LISINOPRIL,2019-03-25,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,March,3
+P00968,40,Female,Asthma,ALBUTEROL,2019-12-01,130/85,200,130,85,Adult,High,Borderline High,True,False,2019,December,12
+P00969,25,Male,Hypertension,LISINOPRIL,2019-03-25,130/85,220,130,85,Young ,High,Borderline High,True,False,2019,March,3
+P00970,40,Male,Asthma,ALBUTEROL,2020-01-15,130/85,160,130,85,Adult,High,Normal,True,False,2020,January,1
+P00971,60,Other,Unknown,NONE,2019-03-25,120/80,160,120,80,Adult,High,Normal,True,False,2019,March,3
+P00972,25,Male,Unknown,NONE,2020-02-20,130/85,180,130,85,Young ,High,Normal,True,False,2020,February,2
+P00973,35,Other,Diabetes,METFORMIN,2020-01-15,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2020,January,1
+P00974,40,Male,Heart Disease,ATORVASTATIN,2018-04-05,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2018,April,4
+P00975,40,Female,Asthma,ALBUTEROL,2019-12-01,140/90,200,140,90,Adult,High,Borderline High,True,False,2019,December,12
+P00976,70,Female,Diabetes,METFORMIN,2019-12-01,120/80,160,120,80,Senior,High,Normal,True,False,2019,December,12
+P00977,40,Female,Heart Disease,ATORVASTATIN,2019-03-25,110/70,160,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00978,70,Female,Asthma,ALBUTEROL,2020-01-15,130/85,180,130,85,Senior,High,Normal,True,False,2020,January,1
+P00979,60,Other,Hypertension,LISINOPRIL,2018-04-05,120/80,160,120,80,Adult,High,Normal,True,False,2018,April,4
+P00980,40,Male,Heart Disease,ATORVASTATIN,2020-01-15,120/80,180,120,80,Adult,High,Normal,True,False,2020,January,1
+P00981,40,Other,Unknown,NONE,2019-12-01,110/70,200,110,70,Adult,Normal,Borderline High,True,False,2019,December,12
+P00982,40,Female,Diabetes,METFORMIN,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00983,40,Other,Heart Disease,ATORVASTATIN,2018-04-05,140/90,180,140,90,Adult,High,Normal,True,False,2018,April,4
+P00984,40,Male,Heart Disease,ATORVASTATIN,2019-03-25,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00985,60,Other,Unknown,NONE,2020-02-20,130/85,160,130,85,Adult,High,Normal,True,False,2020,February,2
+P00986,25,Male,Asthma,ALBUTEROL,2020-01-15,120/80,180,120,80,Young ,High,Normal,True,False,2020,January,1
+P00987,60,Other,Hypertension,LISINOPRIL,2020-02-20,130/85,200,130,85,Adult,High,Borderline High,True,False,2020,February,2
+P00988,70,Male,Unknown,NONE,2019-12-01,120/80,220,120,80,Senior,High,Borderline High,True,False,2019,December,12
+P00989,60,Male,Hypertension,LISINOPRIL,2019-03-25,110/70,180,110,70,Adult,Normal,Normal,True,False,2019,March,3
+P00990,70,Female,Asthma,ALBUTEROL,2019-03-25,110/70,160,110,70,Senior,Normal,Normal,True,False,2019,March,3
+P00991,40,Male,Heart Disease,ATORVASTATIN,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00992,25,Female,Hypertension,LISINOPRIL,2019-03-25,130/85,200,130,85,Young ,High,Borderline High,True,False,2019,March,3
+P00993,40,Female,Diabetes,METFORMIN,2020-01-15,130/85,180,130,85,Adult,High,Normal,True,False,2020,January,1
+P00994,35,Female,Diabetes,METFORMIN,2020-01-15,110/70,220,110,70,Young ,Normal,Borderline High,True,False,2020,January,1
+P00995,40,Other,Unknown,NONE,2020-02-20,140/90,180,140,90,Adult,High,Normal,True,False,2020,February,2
+P00996,70,Other,Asthma,ALBUTEROL,2019-03-25,110/70,180,110,70,Senior,Normal,Normal,True,False,2019,March,3
+P00997,40,Other,Unknown,NONE,2020-01-15,130/85,160,130,85,Adult,High,Normal,True,False,2020,January,1
+P00998,40,Other,Unknown,NONE,2020-02-20,110/70,180,110,70,Adult,Normal,Normal,True,False,2020,February,2
+P00999,25,Male,Unknown,NONE,2018-04-05,110/70,200,110,70,Young ,Normal,Borderline High,True,False,2018,April,4
+P01000,40,Male,Diabetes,METFORMIN,2020-02-20,120/80,220,120,80,Adult,High,Borderline High,True,False,2020,February,2
